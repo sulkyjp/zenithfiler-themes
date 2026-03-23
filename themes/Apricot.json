@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Apricot
+  //  杏の午後 — ピーチクリームにテラコッタが映える温もり
+  // ============================================================
+
+  "Description.ja": "杏色のピーチクリームにテラコッタが映える、午後の陽だまりのようなテーマ",
+  "Description.en": "A warm afternoon sunlight theme with apricot peach cream accented by terracotta",
+  "Description.zh-CN": "午后暖阳般的杏桃奶油色主题，以赤陶色点缀",
+  "Description.zh-TW": "午後暖陽般的杏桃奶油色主題，以赤陶色點綴",
+  "Description.ko-KR": "따뜻한 오후 햇살 같은 살구 피치 크림 테마에 테라코타 액센트",
+  "Description.de": "Ein warmes Nachmittagssonnenlicht-Thema in Aprikosen-Pfirsich-Creme mit Terrakotta-Akzenten",
+  "Description.es": "Un tema de luz cálida vespertina en crema albaricoque melocotón con acentos de terracota",
+  "Description.fr": "Un thème de lumière chaude d'après-midi en crème abricot pêche rehaussé de terre cuite",
+  "Description.ru": "Тема тёплого послеполуденного света в абрикосово-персиковых тонах с акцентами терракоты",
+  "Description.pt": "Um tema de luz quente da tarde em creme pêssego damasco com acentos de terracota",
+  "Author": "K.AKASAKA",
+  "Category": "WarmCozy",
+
+  "Base": {
+    "BackgroundColor": "#FBF2EC",
+    "SidebarColor": "#F2E6DC",
+    "HeaderColor": "#FBF2EC",
+    "TitleBarColor": "#5C3828",
+    "TitleBarTextColor": "#FBF2EC",
+    "BorderColor": "#E4D4C8",
+    "PrimaryTextColor": "#2C1E16",
+    "SecondaryTextColor": "#7A6458",
+    "InputBackgroundColor": "#FFF8F4",
+    "FocusedPaneBackgroundColor": "#F5EAE2",
+    "FocusedPaneTextColor": "#2C1E16",
+    "FocusedPaneHeaderBackgroundColor": "#EBDDD2",
+    "OnePointDarkColor": "#5C3828",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#E4D4C8",
+    "TabHoverColor": "#F5EAE2",
+    "ToolbarSeparatorColor": "#7A6458",
+    "TreeLineColor": "#D0A080",
+    "PopupBackgroundColor": "#FAF4F0",
+    "PopupTextColor": "#2C1E16",
+    "PopupHoverBackgroundColor": "#5C3828",
+    "PopupHoverTextColor": "#FBF2EC"
+  },
+
+  "List": {
+    "ListHoverColor": "#F5EAE2",
+    "SelectionColor": "#EBDDD2",
+    "ButtonHoverColor": "#EBDDD2",
+    "InactiveSelectionColor": "#F5EAE2",
+    "OptionSelectedColor": "#C07040",
+    "OptionSelectedHoverColor": "#A86038",
+    "CheckboxHoverColor": "#EBDDD2",
+    "CheckedHoverAccentColor": "#955530",
+    "FilterActiveIndicatorColor": "#2C1E16",
+    "FilterChipBackgroundColor": "#FFF8F4",
+    "FilterChipBorderColor": "#7A6458",
+    "FilterToggleCheckedBackgroundColor": "#F0D8C8"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#FAF4F0",
+    "IndexSearchIconColor": "#D4A050",
+    "IndexSearchFocusBorderColor": "#C08A3A"
+  },
+
+  "Accent": {
+    "AccentColor": "#C07040",
+    "ErrorTextColor": "#C03838",
+    "DestructiveHoverBackgroundColor": "#4C1C1C",
+    "DestructiveIconColor": "#D05050",
+    "SuccessColor": "#4A8A4A"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#E4D4C8",
+    "ContextMenuBackgroundColor": "#FBF2EC",
+    "ContextMenuBorderColor": "#E4D4C8",
+    "ContextMenuTextColor": "#2C1E16",
+    "ContextMenuIconColor": "#7A6458",
+    "ContextMenuShortcutColor": "#7A6458",
+    "ContextMenuDisabledColor": "#C0B0A4",
+    "ContextMenuDisabledIconColor": "#C0B0A4",
+    "ContextMenuHighlightShortcutColor": "#2C1E16",
+    "ContextMenuOuterBackgroundColor": "#FFF8F4"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#C07040",
+    "ScanBarColor": "#A86038",
+    "LoadingOverlayColor": "#662C1E16",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E62C1E16",
+    "TelemetryBorderColor": "#40C07040",
+    "TelemetryTitleColor": "#C07040",
+    "TelemetryValueColor": "#FBF2EC",
+    "PreviewPanelBorderColor": "#E4D4C8",
+    "PreviewPdfBackgroundColor": "#FBF2EC",
+    "IndexStatusNormalColor": "#D4A050",
+    "IndexStatusWarmColor": "#C08A3A",
+    "AiBadgeColor": "#9878A0",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#C07040"                         // Pro バッジアイコンの色
+  }
+}

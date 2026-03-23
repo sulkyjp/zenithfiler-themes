@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Pewter (Professional)
+  //  錫の質感 — クールダークグレーにミュートティールが静かに差す
+  // ============================================================
+
+  "Description.ja": "錫器のようなクールダークグレーに、控えめなティールが差す静謐なテーマ",
+  "Description.en": "A serene theme with pewter-like cool dark gray accented by understated teal",
+  "Description.zh-CN": "锡灰色般冷暗灰的沉静主题，以低调青绿色点缀",
+  "Description.zh-TW": "錫灰色般冷暗灰的沉靜主題，以低調青綠色點綴",
+  "Description.ko-KR": "퓨터 같은 쿨 다크 그레이에 절제된 틸 액센트의 고요한 테마",
+  "Description.de": "Ein heiteres Thema in zinnartigem kühlem Dunkelgrau mit dezenten Teal-Akzenten",
+  "Description.es": "Un tema sereno en gris oscuro frío tipo peltre, acentuado con verde azulado discreto",
+  "Description.fr": "Un thème serein en gris foncé froid façon étain, rehaussé de sarcelle discret",
+  "Description.ru": "Безмятежная тема в оловянно-сером холодном тоне с приглушёнными бирюзовыми акцентами",
+  "Description.pt": "Um tema sereno em cinza escuro frio tipo peltre, acentuado com azul-petróleo discreto",
+  "Author": "K.AKASAKA",
+  "Category": "Professional",
+
+  "Base": {
+    "BackgroundColor": "#1A1D20",
+    "SidebarColor": "#222628",
+    "HeaderColor": "#1A1D20",
+    "TitleBarColor": "#2A2E30",
+    "TitleBarTextColor": "#E0E4E8",
+    "BorderColor": "#3C4448",
+    "PrimaryTextColor": "#E0E4E8",
+    "SecondaryTextColor": "#8C9498",
+    "InputBackgroundColor": "#141618",
+    "FocusedPaneBackgroundColor": "#222628",
+    "FocusedPaneTextColor": "#ECF0F4",
+    "FocusedPaneHeaderBackgroundColor": "#2E3234",
+    "OnePointDarkColor": "#343A3E",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#3C4448",
+    "TabHoverColor": "#2E3234",
+    "ToolbarSeparatorColor": "#6A7074",
+    "TreeLineColor": "#4A5458",
+    "PopupBackgroundColor": "#222628",
+    "PopupTextColor": "#E0E4E8",
+    "PopupHoverBackgroundColor": "#343A3E",
+    "PopupHoverTextColor": "#E0E4E8"
+  },
+
+  "List": {
+    "ListHoverColor": "#2E3234",
+    "SelectionColor": "#1E3838",
+    "ButtonHoverColor": "#3A4044",
+    "InactiveSelectionColor": "#282C2E",
+    "OptionSelectedColor": "#2A4A4A",
+    "OptionSelectedHoverColor": "#3A5A5A",
+    "CheckboxHoverColor": "#2E3234",
+    "CheckedHoverAccentColor": "#5A9898",
+    "FilterActiveIndicatorColor": "#5A9898",
+    "FilterChipBackgroundColor": "#222628",
+    "FilterChipBorderColor": "#4A5458",
+    "FilterToggleCheckedBackgroundColor": "#1E3838"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#222628",
+    "IndexSearchIconColor": "#D0B868",
+    "IndexSearchFocusBorderColor": "#B8A050"
+  },
+
+  "Accent": {
+    "AccentColor": "#5A9898",
+    "ErrorTextColor": "#E08080",
+    "DestructiveHoverBackgroundColor": "#501818",
+    "DestructiveIconColor": "#D07070",
+    "SuccessColor": "#5AAA5A"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#343A3E",
+    "ContextMenuBackgroundColor": "#222628",
+    "ContextMenuBorderColor": "#3C4448",
+    "ContextMenuTextColor": "#D8DCE0",
+    "ContextMenuIconColor": "#A0A8AC",
+    "ContextMenuShortcutColor": "#7A8488",
+    "ContextMenuDisabledColor": "#4A5458",
+    "ContextMenuDisabledIconColor": "#3C4448",
+    "ContextMenuHighlightShortcutColor": "#E0E4E8",
+    "ContextMenuOuterBackgroundColor": "#141618"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#5A9898",
+    "ScanBarColor": "#4A8888",
+    "LoadingOverlayColor": "#CC1A1D20",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E61A1D20",
+    "TelemetryBorderColor": "#405A9898",
+    "TelemetryTitleColor": "#5A9898",
+    "TelemetryValueColor": "#E0E4E8",
+    "PreviewPanelBorderColor": "#3C4448",
+    "PreviewPdfBackgroundColor": "#222628",
+    "IndexStatusNormalColor": "#D0B868",
+    "IndexStatusWarmColor": "#C0A050",
+    "AiBadgeColor": "#9888B8",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#C8A060"                         // Pro バッジアイコンの色
+  }
+}

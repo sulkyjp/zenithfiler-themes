@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: SolarizedLight (Optimized)
+  //  改善点: テキスト全体のコントラスト強化、ボタン視認性の向上
+  // ============================================================
+
+  "Description.ja": "長時間の作業をサポートする、計算された色彩設計（高視認性調整版）",
+  "Description.en": "A scientifically calculated color design for extended work sessions (high-visibility tuned edition)",
+  "Description.zh-CN": "为长时间工作设计的科学配色方案（高可见度调优版）",
+  "Description.zh-TW": "為長時間工作設計的科學配色方案（高可見度調優版）",
+  "Description.ko-KR": "장시간 작업을 위해 과학적으로 설계된 배색 (고가시성 튜닝판)",
+  "Description.de": "Ein wissenschaftlich berechnetes Farbdesign für lange Arbeitssitzungen (hochsichtbar abgestimmt)",
+  "Description.es": "Un diseño de colores calculado científicamente para sesiones de trabajo prolongadas (edición de alta visibilidad)",
+  "Description.fr": "Un design chromatique scientifiquement calculé pour les longues sessions de travail (édition haute visibilité)",
+  "Description.ru": "Научно рассчитанная цветовая схема для длительной работы (версия с повышенной видимостью)",
+  "Description.pt": "Um design de cores cientificamente calculado para longas sessões de trabalho (edição de alta visibilidade)",
+  "Author": "K.AKASAKA",
+  "Category": "Standard",
+
+  "Base": {
+    "BackgroundColor": "#FDF6E3",
+    "SidebarColor": "#EEE8D5",
+    "HeaderColor": "#FDF6E3",
+    "TitleBarColor": "#002B36",                        // より深い色に変更し、最上部の締まりを強化
+    "TitleBarTextColor": "#93A1A1",                    // タイトルバーの文字・ボタン色
+    "BorderColor": "#839496",                          // 境界線を少し濃くし、骨郭を明快に
+    "PrimaryTextColor": "#073642",                     // #657B83から変更。Solarizedで最も濃い色で読みやすく
+    "SecondaryTextColor": "#586E75",                   // #93A1A1から変更。補足情報が消えずに読める濃度へ
+    "InputBackgroundColor": "#FFFFFF",                 // 入力欄を白に近づけ、インクとのコントラストを最大化
+    "FocusedPaneBackgroundColor": "#EEE8D5",
+    "FocusedPaneTextColor": "#073642",
+    "FocusedPaneHeaderBackgroundColor": "#E0DAC5",
+    "OnePointDarkColor": "#073642",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#839496",
+    "TabHoverColor": "#E0DAC5",
+    "ToolbarSeparatorColor": "#586E75",
+    "TreeLineColor": "#839496",
+    "PopupBackgroundColor": "#FEF9EA",                 // フローティングポップアップの背景色
+    "PopupTextColor": "#073642",                       // ポップアップ内のテキスト色
+    "PopupHoverBackgroundColor": "#073642",            // ポップアップリスト項目のホバー背景色
+    "PopupHoverTextColor": "#FDF6E3"                   // ポップアップリスト項目のホバーテキスト色
+  },
+
+  "List": {
+    "ListHoverColor": "#E0DAC5",
+    "SelectionColor": "#D6D1BC",
+    "ButtonHoverColor": "#D6D1BC",
+    "InactiveSelectionColor": "#EEE8D5",
+    "OptionSelectedColor": "#D1E0E0",                  // ボタン背景。黒文字がはっきり読める淡いブルーに変更
+    "OptionSelectedHoverColor": "#B8D0D0",
+    "CheckboxHoverColor": "#E0DAC5",
+    "CheckedHoverAccentColor": "#268BD2",
+    "FilterActiveIndicatorColor": "#073642",           // アクティブフィルターのインジケーター色
+    "FilterChipBackgroundColor": "#FFFFFF",            // フィルターチップのデフォルト背景色
+    "FilterChipBorderColor": "#586E75",                // フィルターチップの枠線色
+    "FilterToggleCheckedBackgroundColor": "#D1E0E0"   // フィルタートグルのチェック済み背景色
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#FEF9EA",
+    "IndexSearchIconColor": "#B58900",
+    "IndexSearchFocusBorderColor": "#CB4B16"
+  },
+
+  "Accent": {
+    "AccentColor": "#268BD2",                          // 強調色（ブルー）
+    "ErrorTextColor": "#DC322F",
+    "DestructiveHoverBackgroundColor": "#3D0000",
+    "DestructiveIconColor": "#DC322F",
+    "SuccessColor": "#859900"                         // 成功・有効状態のアイコン色
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#D3CEC1",
+    "ContextMenuBackgroundColor": "#FDF6E3",
+    "ContextMenuBorderColor": "#839496",
+    "ContextMenuTextColor": "#073642",                 // コンテキストメニューの文字も濃く
+    "ContextMenuIconColor": "#586E75",
+    "ContextMenuShortcutColor": "#839496",
+    "ContextMenuDisabledColor": "#93A1A1",
+    "ContextMenuDisabledIconColor": "#93A1A1",
+    "ContextMenuHighlightShortcutColor": "#073642",
+    "ContextMenuOuterBackgroundColor": "#FFFFFF"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#2AA198",
+    "ScanBarColor": "#268BD2",
+    "LoadingOverlayColor": "#66073642",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E6073642",
+    "TelemetryBorderColor": "#4093A1A1",
+    "TelemetryTitleColor": "#268BD2",
+    "TelemetryValueColor": "#FDF6E3",
+    "PreviewPanelBorderColor": "#839496",              // クイックプレビューパネルの枠線色
+    "PreviewPdfBackgroundColor": "#FDF6E3",            // PDFプレビューのキャンバス背景色
+    "IndexStatusNormalColor": "#B58900",               // インデックス状態テキストの通常色
+    "IndexStatusWarmColor": "#CB4B16",                 // インデックスの日時・件数バッジ色
+    "AiBadgeColor": "#6C71C4",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#CB4B16"                         // Pro バッジアイコンの色
+  }
+}

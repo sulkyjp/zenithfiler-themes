@@ -1,0 +1,111 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration
+  //  カラーコード: #RRGGBB / #AARRGGBB / 色名 (例: Cyan)
+  //  テーマ選択時に即座に反映されます（再起動不要）
+  // ============================================================
+
+  // テーマのメタデータ
+  "Description.ja": "自然光のような柔らかさと実用性を両立した、ニュートラルグレー基調のテーマ",
+  "Description.en": "A neutral gray theme balancing the softness of natural light with everyday practicality",
+  "Description.zh-CN": "中性灰主题，平衡自然光的柔和与日常实用性",
+  "Description.zh-TW": "中性灰主題，平衡自然光的柔和與日常實用性",
+  "Description.ko-KR": "자연광의 부드러움과 일상적 실용성을 균형 있게 조화시킨 중립 그레이 테마",
+  "Description.de": "Ein neutrales Grau-Thema, das die Sanftheit natürlichen Lichts mit Alltagstauglichkeit verbindet",
+  "Description.es": "Un tema gris neutro que equilibra la suavidad de la luz natural con la practicidad cotidiana",
+  "Description.fr": "Un thème gris neutre équilibrant la douceur de la lumière naturelle et le sens pratique du quotidien",
+  "Description.ru": "Нейтральная серая тема, сочетающая мягкость естественного света с повседневной практичностью",
+  "Description.pt": "Um tema cinza neutro que equilibra a suavidade da luz natural com a praticidade do dia a dia",
+  "Author": "KAKASAKA",
+  "Category": "Standard",
+
+  // ── 基本 UI 要素 ──
+  "Base": {
+    "BackgroundColor": "#F4F4F2",                      // メイン背景色（微暖ライトグレー）
+    "SidebarColor": "#EAEAE6",                         // サイドバー（ナビペイン）背景色
+    "HeaderColor": "#F4F4F2",                          // ヘッダー背景色
+    "TitleBarColor": "#2C2C2C",                        // タイトルバー背景色（チャコールブラック）
+    "TitleBarTextColor": "#F4F4F2",                    // タイトルバーの文字・ボタン色
+    "BorderColor": "#DEDED8",                          // 枠線・区切り線の色
+    "PrimaryTextColor": "#1E1E1E",                     // メインテキスト色（ほぼ黒）
+    "SecondaryTextColor": "#5A5A58",                   // サブテキスト・補足情報の色
+    "InputBackgroundColor": "#FFFFFF",                 // テキスト入力欄の背景色
+    "FocusedPaneBackgroundColor": "#EDEDEA",           // フォーカス中ペインの背景色（標準よりわずかに濃い）
+    "FocusedPaneTextColor": "#1E1E1E",                 // フォーカス中ペインのテキスト色
+    "FocusedPaneHeaderBackgroundColor": "#E2E2DC",     // フォーカス中ペインのヘッダー背景色（一覧より濃い）
+    "OnePointDarkColor": "#2C2C2C",
+    "OnePointDarkTextColor": "#FFFFFF",                    // ワンポイント用ダーク帯（お気に入り第1階層・アクティブタブ）
+    "TabSeparatorColor": "#DEDED8",                    // タブ間の区切り線
+    "TabHoverColor": "#EDEDEA",                        // タブホバー時の背景色
+    "ToolbarSeparatorColor": "#5A5A58",                // ツールバーセパレーター色
+    "TreeLineColor": "#7BBDC8",                        // ツリービュー接続線の色
+    "PopupBackgroundColor": "#F8F8F6",                 // フローティングポップアップの背景色
+    "PopupTextColor": "#1E1E1E",                       // ポップアップ内のテキスト色
+    "PopupHoverBackgroundColor": "#2C2C2C",             // ポップアップリスト項目のホバー背景色
+    "PopupHoverTextColor": "#FFFFFF"                    // ポップアップリスト項目のホバーテキスト色
+  },
+
+  // ── リスト・選択・ホバー ──
+  "List": {
+    "ListHoverColor": "#EDEDEA",                       // リスト項目ホバー時の背景色
+    "SelectionColor": "#E2E2DC",                       // 選択項目のハイライト色
+    "ButtonHoverColor": "#E2E2DC",                     // ボタンホバー時の背景色
+    "InactiveSelectionColor": "#EDEDEA",               // 非アクティブペインの選択色
+    "OptionSelectedColor": "#3A9CB0",                  // ラジオボタン等の選択時背景色
+    "OptionSelectedHoverColor": "#328A9C",             // ラジオボタン等の選択＋ホバー時背景色
+    "CheckboxHoverColor": "#E2E2DC",                   // チェックボックスホバー時の背景色
+    "CheckedHoverAccentColor": "#2E8494",              // チェック済みホバー時のアクセント色（暗めのアクセント）
+    "FilterActiveIndicatorColor": "#1E1E1E",           // アクティブフィルターのインジケーター色
+    "FilterChipBackgroundColor": "#FFFFFF",            // フィルターチップのデフォルト背景色
+    "FilterChipBorderColor": "#5A5A58",                // フィルターチップの枠線色
+    "FilterToggleCheckedBackgroundColor": "#D4EAEF"    // フィルタートグルのチェック済み背景色
+  },
+
+  // ── インデックス検索 ──
+  "Search": {
+    "IndexSearchBackgroundColor": "#F8F8F6",           // インデックス検索モード時の背景色
+    "IndexSearchIconColor": "#D4A843",                 // インデックス検索の雷アイコン色（ゴールド）
+    "IndexSearchFocusBorderColor": "#C87A3A"           // インデックス検索＋フォーカス時のボーダー色（アンバー）
+  },
+
+  // ── アクセント・エラー・破壊的操作 ──
+  "Accent": {
+    "AccentColor": "#3A9CB0",                          // アクセントカラー（落ち着いたティール）
+    "ErrorTextColor": "#C44040",                       // エラーテキスト色
+    "DestructiveHoverBackgroundColor": "#4C1C21",      // 破壊的操作ホバー時の背景色（暗い赤）
+    "DestructiveIconColor": "#D06050",                 // 破壊的操作のアイコン色（明るい赤）
+    "SuccessColor": "#5A9E5A"                          // 成功・有効状態のアイコン色
+  },
+
+  // ── 右クリックメニュー ──
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#DEDED8",            // コンテキストメニューのセパレーター色
+    "ContextMenuBackgroundColor": "#F4F4F2",           // コンテキストメニューの背景色
+    "ContextMenuBorderColor": "#DEDED8",               // コンテキストメニューの枠線色
+    "ContextMenuTextColor": "#1E1E1E",                 // コンテキストメニューのテキスト色
+    "ContextMenuIconColor": "#5A5A58",                 // コンテキストメニューのアイコン色
+    "ContextMenuShortcutColor": "#5A5A58",             // コンテキストメニューのショートカットキー表示色
+    "ContextMenuDisabledColor": "#BDBDB8",             // コンテキストメニューの無効項目テキスト色
+    "ContextMenuDisabledIconColor": "#BDBDB8",         // コンテキストメニューの無効項目アイコン色
+    "ContextMenuHighlightShortcutColor": "#1E1E1E",    // ハイライト時のショートカットキー表示色
+    "ContextMenuOuterBackgroundColor": "#FFFFFF"       // コンテキストメニュー外枠の背景色
+  },
+
+  // ── その他（進捗バー・オーバーレイ・テレメトリー） ──
+  "Misc": {
+    "GlowBarGlowColor": "#3A9CB0",                     // 進捗バー（GlowBar）のグロー色
+    "ScanBarColor": "#328A9C",                         // スキャンバーの色
+    "LoadingOverlayColor": "#661E1E1E",                // ローディングオーバーレイ色（#AARRGGBB 半透明）
+    "ShadowColor": "#000000",                          // ダイアログのシャドウ色
+    "TelemetryBackgroundColor": "#E61E1E1E",           // テレメトリーパネル背景色（#AARRGGBB 半透明）
+    "TelemetryBorderColor": "#403A9CB0",               // テレメトリーパネル枠線色（#AARRGGBB 半透明）
+    "TelemetryTitleColor": "#3A9CB0",                  // テレメトリーパネルのタイトル色
+    "TelemetryValueColor": "#F4F4F2",                  // テレメトリーパネルの値テキスト色
+    "PreviewPanelBorderColor": "#DEDED8",              // クイックプレビューパネルの枠線色
+    "PreviewPdfBackgroundColor": "#F4F4F2",            // PDFプレビューのキャンバス背景色
+    "IndexStatusNormalColor": "#D4A843",               // インデックス状態テキストの通常色
+    "IndexStatusWarmColor": "#C87A3A",                  // インデックスの日時・件数バッジ色
+    "AiBadgeColor": "#8E6BA5",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#D0812A"                         // Pro バッジアイコンの色
+  }
+}

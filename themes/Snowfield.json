@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Snowfield
+  //  高彩度ブルーが映える白基調 — VS Code Light / GitHub 風
+  // ============================================================
+
+  "Description.ja": "雪原のような白い背景に、鮮やかなコバルトブルーが映えるモダンテーマ",
+  "Description.en": "A modern theme with vivid cobalt blue standing out against a snow-white background",
+  "Description.zh-CN": "雪白背景上鲜明钴蓝跃然而出的现代主题",
+  "Description.zh-TW": "雪白背景上鮮明鈷藍躍然而出的現代主題",
+  "Description.ko-KR": "눈처럼 하얀 배경 위에 선명한 코발트 블루가 돋보이는 모던 테마",
+  "Description.de": "Ein modernes Thema mit leuchtendem Kobaltblau vor schneeweißem Hintergrund",
+  "Description.es": "Un tema moderno con azul cobalto vívido destacando sobre un fondo blanco nieve",
+  "Description.fr": "Un thème moderne où le bleu cobalt vif se détache sur un fond blanc neige",
+  "Description.ru": "Современная тема с ярким кобальтовым синим на белоснежном фоне",
+  "Description.pt": "Um tema moderno com azul cobalto vívido destacando-se sobre um fundo branco neve",
+  "Author": "K.AKASAKA",
+  "Category": "Standard",
+
+  "Base": {
+    "BackgroundColor": "#F8FAFD",
+    "SidebarColor": "#EFF2F8",
+    "HeaderColor": "#F8FAFD",
+    "TitleBarColor": "#1E3A5F",
+    "TitleBarTextColor": "#F8FAFD",
+    "BorderColor": "#D8DDE8",
+    "PrimaryTextColor": "#111827",
+    "SecondaryTextColor": "#4B5563",
+    "InputBackgroundColor": "#FFFFFF",
+    "FocusedPaneBackgroundColor": "#F0F3F9",
+    "FocusedPaneTextColor": "#111827",
+    "FocusedPaneHeaderBackgroundColor": "#E4E9F2",
+    "OnePointDarkColor": "#1E3A5F",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#D8DDE8",
+    "TabHoverColor": "#F0F3F9",
+    "ToolbarSeparatorColor": "#4B5563",
+    "TreeLineColor": "#6FA0E0",
+    "PopupBackgroundColor": "#FAFBFE",
+    "PopupTextColor": "#111827",
+    "PopupHoverBackgroundColor": "#1E3A5F",
+    "PopupHoverTextColor": "#FFFFFF"
+  },
+
+  "List": {
+    "ListHoverColor": "#F0F3F9",
+    "SelectionColor": "#E0E8F5",
+    "ButtonHoverColor": "#E0E8F5",
+    "InactiveSelectionColor": "#F0F3F9",
+    "OptionSelectedColor": "#2563EB",
+    "OptionSelectedHoverColor": "#1D4FCC",
+    "CheckboxHoverColor": "#E0E8F5",
+    "CheckedHoverAccentColor": "#1A47B8",
+    "FilterActiveIndicatorColor": "#111827",
+    "FilterChipBackgroundColor": "#FFFFFF",
+    "FilterChipBorderColor": "#4B5563",
+    "FilterToggleCheckedBackgroundColor": "#D0DFFA"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#FAFBFE",
+    "IndexSearchIconColor": "#D4A843",
+    "IndexSearchFocusBorderColor": "#C08A30"
+  },
+
+  "Accent": {
+    "AccentColor": "#2563EB",
+    "ErrorTextColor": "#DC2626",
+    "DestructiveHoverBackgroundColor": "#4C1C21",
+    "DestructiveIconColor": "#E04040",
+    "SuccessColor": "#16A34A"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#D8DDE8",
+    "ContextMenuBackgroundColor": "#F8FAFD",
+    "ContextMenuBorderColor": "#D8DDE8",
+    "ContextMenuTextColor": "#111827",
+    "ContextMenuIconColor": "#4B5563",
+    "ContextMenuShortcutColor": "#4B5563",
+    "ContextMenuDisabledColor": "#B0B8C4",
+    "ContextMenuDisabledIconColor": "#B0B8C4",
+    "ContextMenuHighlightShortcutColor": "#111827",
+    "ContextMenuOuterBackgroundColor": "#FFFFFF"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#2563EB",
+    "ScanBarColor": "#1D4FCC",
+    "LoadingOverlayColor": "#66111827",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E6111827",
+    "TelemetryBorderColor": "#402563EB",
+    "TelemetryTitleColor": "#2563EB",
+    "TelemetryValueColor": "#F8FAFD",
+    "PreviewPanelBorderColor": "#D8DDE8",
+    "PreviewPdfBackgroundColor": "#F8FAFD",
+    "IndexStatusNormalColor": "#D4A843",
+    "IndexStatusWarmColor": "#C08A30",
+    "AiBadgeColor": "#7C3AED",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#EA580C"                         // Pro バッジアイコンの色
+  }
+}

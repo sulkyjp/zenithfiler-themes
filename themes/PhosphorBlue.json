@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: PhosphorBlue (RetroTech)
+  //  P4 ブルー蛍光体 — CRT 三色（緑/琥珀/青）の完結
+  // ============================================================
+
+  "Description.ja": "P4ブルー蛍光体のCRTモニターを再現した、青い燐光が浮かぶレトロテーマ",
+  "Description.en": "A retro theme recreating a P4 blue phosphor CRT monitor, with blue phosphorescence floating in darkness",
+  "Description.zh-CN": "再现P4蓝色荧光CRT显示器的复古主题，蓝色磷光在黑暗中漂浮",
+  "Description.zh-TW": "再現P4藍色螢光CRT顯示器的復古主題，藍色磷光在黑暗中漂浮",
+  "Description.ko-KR": "P4 블루 형광체 CRT 모니터를 재현한 레트로 테마, 어둠 속에 파란 인광이 떠다니는",
+  "Description.de": "Ein Retro-Thema, das einen P4-Blauphosphor-CRT-Monitor nachbildet, mit blauer Phosphoreszenz in der Dunkelheit",
+  "Description.es": "Un tema retro que recrea un monitor CRT de fósforo azul P4, con fosforescencia azul flotando en la oscuridad",
+  "Description.fr": "Un thème rétro recréant un moniteur CRT à phosphore bleu P4, avec une phosphorescence bleue flottant dans l'obscurité",
+  "Description.ru": "Ретро-тема, воссоздающая монитор с голубым люминофором P4, с голубой фосфоресценцией во тьме",
+  "Description.pt": "Um tema retrô que recria um monitor CRT de fósforo azul P4, com fosforescência azul flutuando na escuridão",
+  "Author": "K.AKASAKA",
+  "Category": "RetroTech",
+
+  "Base": {
+    "BackgroundColor": "#080810",
+    "SidebarColor": "#101018",
+    "HeaderColor": "#080810",
+    "TitleBarColor": "#181820",
+    "TitleBarTextColor": "#58A0FF",
+    "BorderColor": "#283050",
+    "PrimaryTextColor": "#58A0FF",
+    "SecondaryTextColor": "#2860A0",
+    "InputBackgroundColor": "#04040A",
+    "FocusedPaneBackgroundColor": "#101018",
+    "FocusedPaneTextColor": "#68B0FF",
+    "FocusedPaneHeaderBackgroundColor": "#1C2030",
+    "OnePointDarkColor": "#58A0FF",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#283050",
+    "TabHoverColor": "#1C2030",
+    "ToolbarSeparatorColor": "#2860A0",
+    "TreeLineColor": "#1A3060",
+    "PopupBackgroundColor": "#101018",
+    "PopupTextColor": "#58A0FF",
+    "PopupHoverBackgroundColor": "#182038",
+    "PopupHoverTextColor": "#68B0FF"
+  },
+
+  "List": {
+    "ListHoverColor": "#1C2030",
+    "SelectionColor": "#182848",
+    "ButtonHoverColor": "#283050",
+    "InactiveSelectionColor": "#0C0C14",
+    "OptionSelectedColor": "#1C3868",
+    "OptionSelectedHoverColor": "#244878",
+    "CheckboxHoverColor": "#1C2030",
+    "CheckedHoverAccentColor": "#58A0FF",
+    "FilterActiveIndicatorColor": "#58A0FF",
+    "FilterChipBackgroundColor": "#101018",
+    "FilterChipBorderColor": "#2860A0",
+    "FilterToggleCheckedBackgroundColor": "#182848"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#101018",
+    "IndexSearchIconColor": "#58A0FF",
+    "IndexSearchFocusBorderColor": "#68B0FF"
+  },
+
+  "Accent": {
+    "AccentColor": "#58A0FF",
+    "ErrorTextColor": "#F06060",
+    "DestructiveHoverBackgroundColor": "#401818",
+    "DestructiveIconColor": "#E05050",
+    "SuccessColor": "#50C060"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#283050",
+    "ContextMenuBackgroundColor": "#101018",
+    "ContextMenuBorderColor": "#58A0FF",
+    "ContextMenuTextColor": "#58A0FF",
+    "ContextMenuIconColor": "#4888D0",
+    "ContextMenuShortcutColor": "#2860A0",
+    "ContextMenuDisabledColor": "#1A2840",
+    "ContextMenuDisabledIconColor": "#182038",
+    "ContextMenuHighlightShortcutColor": "#68B0FF",
+    "ContextMenuOuterBackgroundColor": "#04040A"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#58A0FF",
+    "ScanBarColor": "#4888D0",
+    "LoadingOverlayColor": "#CC080810",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E6080810",
+    "TelemetryBorderColor": "#4058A0FF",
+    "TelemetryTitleColor": "#68B0FF",
+    "TelemetryValueColor": "#58A0FF",
+    "PreviewPanelBorderColor": "#283050",
+    "PreviewPdfBackgroundColor": "#101018",
+    "IndexStatusNormalColor": "#58A0FF",
+    "IndexStatusWarmColor": "#4888D0",
+    "AiBadgeColor": "#A878FF",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#FF9030"                         // Pro バッジアイコンの色
+  }
+}

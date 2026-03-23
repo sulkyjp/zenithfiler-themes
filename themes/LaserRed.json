@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: LaserRed (RetroTech)
+  //  レーザーレッド — アーケードゲームのスコアボード、赤い光線の世界
+  // ============================================================
+
+  "Description.ja": "アーケードゲームのスコアボードのような、赤いレーザー光が闇に浮かぶレトロテーマ",
+  "Description.en": "A retro theme with red laser light floating in darkness, like an arcade game scoreboard",
+  "Description.zh-CN": "红色激光在黑暗中漂浮的复古主题，如街机游戏记分牌",
+  "Description.zh-TW": "紅色雷射光在黑暗中漂浮的復古主題，如街機遊戲記分板",
+  "Description.ko-KR": "어둠 속에 빨간 레이저 빛이 떠다니는 레트로 테마, 아케이드 게임 스코어보드처럼",
+  "Description.de": "Ein Retro-Thema mit rotem Laserlicht in der Dunkelheit, wie eine Arcade-Anzeigetafel",
+  "Description.es": "Un tema retro con luz láser roja flotando en la oscuridad, como un marcador de juegos arcade",
+  "Description.fr": "Un thème rétro avec une lumière laser rouge flottant dans l'obscurité, comme un tableau de scores d'arcade",
+  "Description.ru": "Ретро-тема с красным лазерным светом во тьме, словно табло аркадного автомата",
+  "Description.pt": "Um tema retrô com luz laser vermelha flutuando na escuridão, como um placar de fliperama",
+  "Author": "K.AKASAKA",
+  "Category": "RetroTech",
+
+  "Base": {
+    "BackgroundColor": "#100808",
+    "SidebarColor": "#181010",
+    "HeaderColor": "#100808",
+    "TitleBarColor": "#201414",
+    "TitleBarTextColor": "#F05050",
+    "BorderColor": "#402020",
+    "PrimaryTextColor": "#F05050",
+    "SecondaryTextColor": "#983030",
+    "InputBackgroundColor": "#0A0404",
+    "FocusedPaneBackgroundColor": "#181010",
+    "FocusedPaneTextColor": "#F86868",
+    "FocusedPaneHeaderBackgroundColor": "#281818",
+    "OnePointDarkColor": "#F05050",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#402020",
+    "TabHoverColor": "#281818",
+    "ToolbarSeparatorColor": "#983030",
+    "TreeLineColor": "#501818",
+    "PopupBackgroundColor": "#181010",
+    "PopupTextColor": "#F05050",
+    "PopupHoverBackgroundColor": "#2C1818",
+    "PopupHoverTextColor": "#F86868"
+  },
+
+  "List": {
+    "ListHoverColor": "#281818",
+    "SelectionColor": "#382020",
+    "ButtonHoverColor": "#382828",
+    "InactiveSelectionColor": "#140C0C",
+    "OptionSelectedColor": "#502020",
+    "OptionSelectedHoverColor": "#602828",
+    "CheckboxHoverColor": "#281818",
+    "CheckedHoverAccentColor": "#F05050",
+    "FilterActiveIndicatorColor": "#F05050",
+    "FilterChipBackgroundColor": "#181010",
+    "FilterChipBorderColor": "#983030",
+    "FilterToggleCheckedBackgroundColor": "#382020"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#181010",
+    "IndexSearchIconColor": "#F05050",
+    "IndexSearchFocusBorderColor": "#F86868"
+  },
+
+  "Accent": {
+    "AccentColor": "#F05050",
+    "ErrorTextColor": "#FF8888",
+    "DestructiveHoverBackgroundColor": "#401010",
+    "DestructiveIconColor": "#FF6060",
+    "SuccessColor": "#50C060"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#402020",
+    "ContextMenuBackgroundColor": "#181010",
+    "ContextMenuBorderColor": "#F05050",
+    "ContextMenuTextColor": "#F05050",
+    "ContextMenuIconColor": "#C84040",
+    "ContextMenuShortcutColor": "#983030",
+    "ContextMenuDisabledColor": "#302020",
+    "ContextMenuDisabledIconColor": "#281818",
+    "ContextMenuHighlightShortcutColor": "#F86868",
+    "ContextMenuOuterBackgroundColor": "#0A0404"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#F05050",
+    "ScanBarColor": "#C84040",
+    "LoadingOverlayColor": "#CC100808",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E6100808",
+    "TelemetryBorderColor": "#40F05050",
+    "TelemetryTitleColor": "#F86868",
+    "TelemetryValueColor": "#F05050",
+    "PreviewPanelBorderColor": "#402020",
+    "PreviewPdfBackgroundColor": "#181010",
+    "IndexStatusNormalColor": "#F05050",
+    "IndexStatusWarmColor": "#C84040",
+    "AiBadgeColor": "#C060FF",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#FF8830"                         // Pro バッジアイコンの色
+  }
+}

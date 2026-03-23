@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Burgundy (Premium)
+  //  深紅のワイン — 微赤の漆黒に深いバーガンディが沈む
+  // ============================================================
+
+  "Description.ja": "深紅のワインを思わせる、微赤の漆黒に沈んだバーガンディが映えるプレミアムテーマ",
+  "Description.en": "A premium theme reminiscent of deep red wine, with rich burgundy set against a subtly red-tinged black",
+  "Description.zh-CN": "令人联想到醇厚红酒的高级主题，浓郁勃艮第红映衬微红的黑色",
+  "Description.zh-TW": "令人聯想到醇厚紅酒的高級主題，濃郁勃根地紅映襯微紅的黑色",
+  "Description.ko-KR": "깊은 레드 와인을 연상시키는 프리미엄 테마, 미묘한 레드 블랙 위에 풍부한 버건디",
+  "Description.de": "Ein Premium-Thema, das an tiefen Rotwein erinnert — sattes Burgunder auf dezent rot getöntem Schwarz",
+  "Description.es": "Un tema premium que recuerda al vino tinto profundo, borgoña intenso sobre un negro sutilmente rojizo",
+  "Description.fr": "Un thème premium évoquant le vin rouge profond, bourgogne riche sur un noir subtilement teinté de rouge",
+  "Description.ru": "Премиальная тема, напоминающая густое красное вино — насыщенный бордо на чёрном с лёгким красным оттенком",
+  "Description.pt": "Um tema premium que lembra vinho tinto profundo, bordô intenso sobre um preto sutilmente avermelhado",
+  "Author": "K.AKASAKA",
+  "Category": "Premium",
+
+  "Base": {
+    "BackgroundColor": "#1A1214",
+    "SidebarColor": "#221A1C",
+    "HeaderColor": "#1A1214",
+    "TitleBarColor": "#282022",
+    "TitleBarTextColor": "#E4D8DC",
+    "BorderColor": "#483038",
+    "PrimaryTextColor": "#E4D8DC",
+    "SecondaryTextColor": "#A08890",
+    "InputBackgroundColor": "#140C0E",
+    "FocusedPaneBackgroundColor": "#221A1C",
+    "FocusedPaneTextColor": "#F0E4E8",
+    "FocusedPaneHeaderBackgroundColor": "#302428",
+    "OnePointDarkColor": "#8A3040",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#483038",
+    "TabHoverColor": "#302428",
+    "ToolbarSeparatorColor": "#685058",
+    "TreeLineColor": "#543840",
+    "PopupBackgroundColor": "#221A1C",
+    "PopupTextColor": "#E4D8DC",
+    "PopupHoverBackgroundColor": "#3A2C30",
+    "PopupHoverTextColor": "#E4D8DC"
+  },
+
+  "List": {
+    "ListHoverColor": "#302428",
+    "SelectionColor": "#381C24",
+    "ButtonHoverColor": "#3E2C32",
+    "InactiveSelectionColor": "#241C1E",
+    "OptionSelectedColor": "#502030",
+    "OptionSelectedHoverColor": "#602A3A",
+    "CheckboxHoverColor": "#302428",
+    "CheckedHoverAccentColor": "#8A3040",
+    "FilterActiveIndicatorColor": "#8A3040",
+    "FilterChipBackgroundColor": "#221A1C",
+    "FilterChipBorderColor": "#543840",
+    "FilterToggleCheckedBackgroundColor": "#381C24"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#221A1C",
+    "IndexSearchIconColor": "#C8A848",
+    "IndexSearchFocusBorderColor": "#B09038"
+  },
+
+  "Accent": {
+    "AccentColor": "#8A3040",
+    "ErrorTextColor": "#E09090",
+    "DestructiveHoverBackgroundColor": "#4C1818",
+    "DestructiveIconColor": "#D07070",
+    "SuccessColor": "#58A060"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#3A2C30",
+    "ContextMenuBackgroundColor": "#221A1C",
+    "ContextMenuBorderColor": "#8A3040",
+    "ContextMenuTextColor": "#DCD0D4",
+    "ContextMenuIconColor": "#803848",
+    "ContextMenuShortcutColor": "#783040",
+    "ContextMenuDisabledColor": "#543840",
+    "ContextMenuDisabledIconColor": "#483038",
+    "ContextMenuHighlightShortcutColor": "#E4D8DC",
+    "ContextMenuOuterBackgroundColor": "#140C0E"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#8A3040",
+    "ScanBarColor": "#7A2838",
+    "LoadingOverlayColor": "#CC1A1214",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E61A1214",
+    "TelemetryBorderColor": "#408A3040",
+    "TelemetryTitleColor": "#9A4050",
+    "TelemetryValueColor": "#E4D8DC",
+    "PreviewPanelBorderColor": "#483038",
+    "PreviewPdfBackgroundColor": "#221A1C",
+    "IndexStatusNormalColor": "#C8A848",
+    "IndexStatusWarmColor": "#B09038",
+    "AiBadgeColor": "#A870B8",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#C88848"                         // Pro バッジアイコンの色
+  }
+}

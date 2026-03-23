@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: CloudGray
+  //  モダン UI の清潔なグレー — Windows 11 / macOS 風
+  // ============================================================
+
+  "Description.ja": "モダン UI を意識した、純粋なクールグレー基調の清潔感あるテーマ",
+  "Description.en": "A clean, modern UI theme based on pure cool gray tones",
+  "Description.zh-CN": "基于纯净冷灰色调的简洁现代 UI 主题",
+  "Description.zh-TW": "基於純淨冷灰色調的簡潔現代 UI 主題",
+  "Description.ko-KR": "순수한 쿨 그레이 톤을 기반으로 한 깔끔하고 모던한 UI 테마",
+  "Description.de": "Ein sauberes, modernes UI-Thema auf Basis reiner Kaltgrautöne",
+  "Description.es": "Un tema UI limpio y moderno basado en tonos gris frío puros",
+  "Description.fr": "Un thème UI épuré et moderne basé sur des tons gris froid purs",
+  "Description.ru": "Чистая современная тема интерфейса на основе холодных серых тонов",
+  "Description.pt": "Um tema de UI limpo e moderno baseado em tons de cinza frio puro",
+  "Author": "K.AKASAKA",
+  "Category": "Standard",
+
+  "Base": {
+    "BackgroundColor": "#F0F1F3",
+    "SidebarColor": "#E6E7EB",
+    "HeaderColor": "#F0F1F3",
+    "TitleBarColor": "#2B2D33",
+    "TitleBarTextColor": "#F0F1F3",
+    "BorderColor": "#D4D6DC",
+    "PrimaryTextColor": "#1A1C22",
+    "SecondaryTextColor": "#5C5E66",
+    "InputBackgroundColor": "#FAFBFC",
+    "FocusedPaneBackgroundColor": "#E9EAED",
+    "FocusedPaneTextColor": "#1A1C22",
+    "FocusedPaneHeaderBackgroundColor": "#DDDEE3",
+    "OnePointDarkColor": "#2B2D33",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#D4D6DC",
+    "TabHoverColor": "#E9EAED",
+    "ToolbarSeparatorColor": "#5C5E66",
+    "TreeLineColor": "#7BA0D0",
+    "PopupBackgroundColor": "#F5F6F8",
+    "PopupTextColor": "#1A1C22",
+    "PopupHoverBackgroundColor": "#2B2D33",
+    "PopupHoverTextColor": "#FFFFFF"
+  },
+
+  "List": {
+    "ListHoverColor": "#E9EAED",
+    "SelectionColor": "#DDDEE3",
+    "ButtonHoverColor": "#DDDEE3",
+    "InactiveSelectionColor": "#E9EAED",
+    "OptionSelectedColor": "#4E7DC0",
+    "OptionSelectedHoverColor": "#4270AD",
+    "CheckboxHoverColor": "#DDDEE3",
+    "CheckedHoverAccentColor": "#3B6AAE",
+    "FilterActiveIndicatorColor": "#1A1C22",
+    "FilterChipBackgroundColor": "#FAFBFC",
+    "FilterChipBorderColor": "#5C5E66",
+    "FilterToggleCheckedBackgroundColor": "#D2DFEF"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#F5F6F8",
+    "IndexSearchIconColor": "#C8A040",
+    "IndexSearchFocusBorderColor": "#B8893A"
+  },
+
+  "Accent": {
+    "AccentColor": "#4E7DC0",
+    "ErrorTextColor": "#C44040",
+    "DestructiveHoverBackgroundColor": "#4C1C21",
+    "DestructiveIconColor": "#D06050",
+    "SuccessColor": "#4A8C5A"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#D4D6DC",
+    "ContextMenuBackgroundColor": "#F0F1F3",
+    "ContextMenuBorderColor": "#D4D6DC",
+    "ContextMenuTextColor": "#1A1C22",
+    "ContextMenuIconColor": "#5C5E66",
+    "ContextMenuShortcutColor": "#5C5E66",
+    "ContextMenuDisabledColor": "#B0B2B8",
+    "ContextMenuDisabledIconColor": "#B0B2B8",
+    "ContextMenuHighlightShortcutColor": "#1A1C22",
+    "ContextMenuOuterBackgroundColor": "#FAFBFC"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#4E7DC0",
+    "ScanBarColor": "#4270AD",
+    "LoadingOverlayColor": "#661A1C22",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E61A1C22",
+    "TelemetryBorderColor": "#404E7DC0",
+    "TelemetryTitleColor": "#4E7DC0",
+    "TelemetryValueColor": "#F0F1F3",
+    "PreviewPanelBorderColor": "#D4D6DC",
+    "PreviewPdfBackgroundColor": "#F0F1F3",
+    "IndexStatusNormalColor": "#C8A040",
+    "IndexStatusWarmColor": "#B8893A",
+    "AiBadgeColor": "#7C6BC4",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#D98040"                         // Pro バッジアイコンの色
+  }
+}

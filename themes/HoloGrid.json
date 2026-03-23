@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: HoloGrid (RetroTech)
+  //  ホログリッド — SF映画のホログラフィック UI、ネオンミントの投影
+  // ============================================================
+
+  "Description.ja": "SF映画のホログラムUIのような、ネオンミントの光が闇に投影されるレトロテーマ",
+  "Description.en": "A retro theme like a sci-fi hologram UI, with neon mint light projected into darkness",
+  "Description.zh-CN": "如科幻全息UI般的复古主题，霓虹薄荷光投射入黑暗",
+  "Description.zh-TW": "如科幻全息UI般的復古主題，霓虹薄荷光投射入黑暗",
+  "Description.ko-KR": "SF 홀로그램 UI 같은 레트로 테마, 네온 민트빛이 어둠 속으로 투사되는",
+  "Description.de": "Ein Retro-Thema wie eine Sci-Fi-Hologramm-Oberfläche, mit Neon-Mintlicht in die Dunkelheit projiziert",
+  "Description.es": "Un tema retro como una interfaz holográfica de ciencia ficción, con luz menta neón proyectada en la oscuridad",
+  "Description.fr": "Un thème rétro comme une interface holographique de science-fiction, avec une lumière menthe néon projetée dans l'obscurité",
+  "Description.ru": "Ретро-тема в стиле голографического интерфейса из научной фантастики с неоново-мятным светом во тьме",
+  "Description.pt": "Um tema retrô como uma interface holográfica de ficção científica, com luz menta neon projetada na escuridão",
+  "Author": "K.AKASAKA",
+  "Category": "RetroTech",
+
+  "Base": {
+    "BackgroundColor": "#080C0A",
+    "SidebarColor": "#101410",
+    "HeaderColor": "#080C0A",
+    "TitleBarColor": "#181C18",
+    "TitleBarTextColor": "#00E8A0",
+    "BorderColor": "#184030",
+    "PrimaryTextColor": "#00E8A0",
+    "SecondaryTextColor": "#008858",
+    "InputBackgroundColor": "#040804",
+    "FocusedPaneBackgroundColor": "#101410",
+    "FocusedPaneTextColor": "#10F0B0",
+    "FocusedPaneHeaderBackgroundColor": "#182018",
+    "OnePointDarkColor": "#00E8A0",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#184030",
+    "TabHoverColor": "#182018",
+    "ToolbarSeparatorColor": "#008858",
+    "TreeLineColor": "#104828",
+    "PopupBackgroundColor": "#101410",
+    "PopupTextColor": "#00E8A0",
+    "PopupHoverBackgroundColor": "#142018",
+    "PopupHoverTextColor": "#10F0B0"
+  },
+
+  "List": {
+    "ListHoverColor": "#182018",
+    "SelectionColor": "#103828",
+    "ButtonHoverColor": "#203828",
+    "InactiveSelectionColor": "#0C100C",
+    "OptionSelectedColor": "#104830",
+    "OptionSelectedHoverColor": "#185840",
+    "CheckboxHoverColor": "#182018",
+    "CheckedHoverAccentColor": "#00E8A0",
+    "FilterActiveIndicatorColor": "#00E8A0",
+    "FilterChipBackgroundColor": "#101410",
+    "FilterChipBorderColor": "#008858",
+    "FilterToggleCheckedBackgroundColor": "#103828"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#101410",
+    "IndexSearchIconColor": "#00E8A0",
+    "IndexSearchFocusBorderColor": "#10F0B0"
+  },
+
+  "Accent": {
+    "AccentColor": "#00E8A0",
+    "ErrorTextColor": "#F06060",
+    "DestructiveHoverBackgroundColor": "#401818",
+    "DestructiveIconColor": "#E05050",
+    "SuccessColor": "#00E8A0"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#184030",
+    "ContextMenuBackgroundColor": "#101410",
+    "ContextMenuBorderColor": "#00E8A0",
+    "ContextMenuTextColor": "#00E8A0",
+    "ContextMenuIconColor": "#00C080",
+    "ContextMenuShortcutColor": "#008858",
+    "ContextMenuDisabledColor": "#183828",
+    "ContextMenuDisabledIconColor": "#142820",
+    "ContextMenuHighlightShortcutColor": "#10F0B0",
+    "ContextMenuOuterBackgroundColor": "#040804"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#00E8A0",
+    "ScanBarColor": "#00C080",
+    "LoadingOverlayColor": "#CC080C0A",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E6080C0A",
+    "TelemetryBorderColor": "#4000E8A0",
+    "TelemetryTitleColor": "#10F0B0",
+    "TelemetryValueColor": "#00E8A0",
+    "PreviewPanelBorderColor": "#184030",
+    "PreviewPdfBackgroundColor": "#101410",
+    "IndexStatusNormalColor": "#00E8A0",
+    "IndexStatusWarmColor": "#00C080",
+    "AiBadgeColor": "#BB70FF",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#FFA040"                         // Pro バッジアイコンの色
+  }
+}

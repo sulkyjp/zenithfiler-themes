@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Honeydew
+  //  ハニーデューの朝 — メロングリーンにオリーブが映える爽やかな温もり
+  // ============================================================
+
+  "Description.ja": "メロンの果肉を思わせる柔らかな黄緑に、オリーブグリーンが映えるテーマ",
+  "Description.en": "A soft yellow-green theme reminiscent of melon flesh, accented with olive green",
+  "Description.zh-CN": "令人联想到蜜瓜果肉的柔和黄绿主题，以橄榄绿点缀",
+  "Description.zh-TW": "令人聯想到蜜瓜果肉的柔和黃綠主題，以橄欖綠點綴",
+  "Description.ko-KR": "멜론 과육을 연상시키는 부드러운 황록 테마에 올리브 그린 액센트",
+  "Description.de": "Ein sanftes Gelbgrün-Thema, das an Melonenfruchtfleisch erinnert, mit Olivgrün-Akzenten",
+  "Description.es": "Un tema suave amarillo verdoso que recuerda a la pulpa del melón, acentuado con verde oliva",
+  "Description.fr": "Un thème jaune-vert doux rappelant la chair de melon, rehaussé de vert olive",
+  "Description.ru": "Мягкая жёлто-зелёная тема, напоминающая мякоть дыни, с оливковыми акцентами",
+  "Description.pt": "Um tema amarelo-verde suave que lembra a polpa de melão, acentuado com verde-oliva",
+  "Author": "K.AKASAKA",
+  "Category": "WarmCozy",
+
+  "Base": {
+    "BackgroundColor": "#F2F6EC",
+    "SidebarColor": "#E6EDE0",
+    "HeaderColor": "#F2F6EC",
+    "TitleBarColor": "#3A4428",
+    "TitleBarTextColor": "#F2F6EC",
+    "BorderColor": "#D4DCC8",
+    "PrimaryTextColor": "#222A1A",
+    "SecondaryTextColor": "#606A50",
+    "InputBackgroundColor": "#F9FBF6",
+    "FocusedPaneBackgroundColor": "#ECF2E5",
+    "FocusedPaneTextColor": "#222A1A",
+    "FocusedPaneHeaderBackgroundColor": "#DEE8D4",
+    "OnePointDarkColor": "#3A4428",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#D4DCC8",
+    "TabHoverColor": "#ECF2E5",
+    "ToolbarSeparatorColor": "#606A50",
+    "TreeLineColor": "#90B060",
+    "PopupBackgroundColor": "#F5F9F2",
+    "PopupTextColor": "#222A1A",
+    "PopupHoverBackgroundColor": "#3A4428",
+    "PopupHoverTextColor": "#F2F6EC"
+  },
+
+  "List": {
+    "ListHoverColor": "#ECF2E5",
+    "SelectionColor": "#DEE8D4",
+    "ButtonHoverColor": "#DEE8D4",
+    "InactiveSelectionColor": "#ECF2E5",
+    "OptionSelectedColor": "#6A8A40",
+    "OptionSelectedHoverColor": "#5C7838",
+    "CheckboxHoverColor": "#DEE8D4",
+    "CheckedHoverAccentColor": "#4E6830",
+    "FilterActiveIndicatorColor": "#222A1A",
+    "FilterChipBackgroundColor": "#F9FBF6",
+    "FilterChipBorderColor": "#606A50",
+    "FilterToggleCheckedBackgroundColor": "#D6E8C4"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#F5F9F2",
+    "IndexSearchIconColor": "#C8A840",
+    "IndexSearchFocusBorderColor": "#B09030"
+  },
+
+  "Accent": {
+    "AccentColor": "#6A8A40",
+    "ErrorTextColor": "#C04040",
+    "DestructiveHoverBackgroundColor": "#4C1C1C",
+    "DestructiveIconColor": "#CC4444",
+    "SuccessColor": "#4A8830"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#D4DCC8",
+    "ContextMenuBackgroundColor": "#F2F6EC",
+    "ContextMenuBorderColor": "#D4DCC8",
+    "ContextMenuTextColor": "#222A1A",
+    "ContextMenuIconColor": "#606A50",
+    "ContextMenuShortcutColor": "#606A50",
+    "ContextMenuDisabledColor": "#AAB4A0",
+    "ContextMenuDisabledIconColor": "#AAB4A0",
+    "ContextMenuHighlightShortcutColor": "#222A1A",
+    "ContextMenuOuterBackgroundColor": "#F9FBF6"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#6A8A40",
+    "ScanBarColor": "#5C7838",
+    "LoadingOverlayColor": "#66222A1A",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E6222A1A",
+    "TelemetryBorderColor": "#406A8A40",
+    "TelemetryTitleColor": "#6A8A40",
+    "TelemetryValueColor": "#F2F6EC",
+    "PreviewPanelBorderColor": "#D4DCC8",
+    "PreviewPdfBackgroundColor": "#F2F6EC",
+    "IndexStatusNormalColor": "#C8A840",
+    "IndexStatusWarmColor": "#B09030",
+    "AiBadgeColor": "#8878A0",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#B08038"                         // Pro バッジアイコンの色
+  }
+}

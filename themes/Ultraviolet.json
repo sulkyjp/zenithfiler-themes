@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Ultraviolet (RetroTech)
+  //  ウルトラバイオレット — ブラックライトの紫外線が闇に浮かぶ
+  // ============================================================
+
+  "Description.ja": "ブラックライトに照らされたような、紫外線の光が闇に浮かぶレトロテーマ",
+  "Description.en": "A retro theme with ultraviolet light floating in darkness, as if illuminated by a black light",
+  "Description.zh-CN": "紫外光在黑暗中漂浮的复古主题，仿佛被黑光灯照亮",
+  "Description.zh-TW": "紫外光在黑暗中漂浮的復古主題，彷彿被黑光燈照亮",
+  "Description.ko-KR": "블랙라이트에 비춰진 듯 어둠 속에 자외선 빛이 떠다니는 레트로 테마",
+  "Description.de": "Ein Retro-Thema mit ultraviolettem Licht in der Dunkelheit, wie unter Schwarzlicht beleuchtet",
+  "Description.es": "Un tema retro con luz ultravioleta flotando en la oscuridad, como si estuviera iluminado por luz negra",
+  "Description.fr": "Un thème rétro avec une lumière ultraviolette flottant dans l'obscurité, comme sous une lampe à lumière noire",
+  "Description.ru": "Ретро-тема с ультрафиолетовым светом во тьме, словно освещённая чёрной лампой",
+  "Description.pt": "Um tema retrô com luz ultravioleta flutuando na escuridão, como se iluminado por luz negra",
+  "Author": "K.AKASAKA",
+  "Category": "RetroTech",
+
+  "Base": {
+    "BackgroundColor": "#0C0810",
+    "SidebarColor": "#141018",
+    "HeaderColor": "#0C0810",
+    "TitleBarColor": "#1C1820",
+    "TitleBarTextColor": "#9878FF",
+    "BorderColor": "#302848",
+    "PrimaryTextColor": "#9878FF",
+    "SecondaryTextColor": "#5848A0",
+    "InputBackgroundColor": "#060408",
+    "FocusedPaneBackgroundColor": "#141018",
+    "FocusedPaneTextColor": "#A888FF",
+    "FocusedPaneHeaderBackgroundColor": "#201C2C",
+    "OnePointDarkColor": "#9878FF",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#302848",
+    "TabHoverColor": "#201C2C",
+    "ToolbarSeparatorColor": "#5848A0",
+    "TreeLineColor": "#382858",
+    "PopupBackgroundColor": "#141018",
+    "PopupTextColor": "#9878FF",
+    "PopupHoverBackgroundColor": "#201828",
+    "PopupHoverTextColor": "#A888FF"
+  },
+
+  "List": {
+    "ListHoverColor": "#201C2C",
+    "SelectionColor": "#201838",
+    "ButtonHoverColor": "#302840",
+    "InactiveSelectionColor": "#100C14",
+    "OptionSelectedColor": "#2C2050",
+    "OptionSelectedHoverColor": "#382860",
+    "CheckboxHoverColor": "#201C2C",
+    "CheckedHoverAccentColor": "#9878FF",
+    "FilterActiveIndicatorColor": "#9878FF",
+    "FilterChipBackgroundColor": "#141018",
+    "FilterChipBorderColor": "#5848A0",
+    "FilterToggleCheckedBackgroundColor": "#201838"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#141018",
+    "IndexSearchIconColor": "#9878FF",
+    "IndexSearchFocusBorderColor": "#A888FF"
+  },
+
+  "Accent": {
+    "AccentColor": "#9878FF",
+    "ErrorTextColor": "#F06060",
+    "DestructiveHoverBackgroundColor": "#401818",
+    "DestructiveIconColor": "#E05050",
+    "SuccessColor": "#50C060"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#302848",
+    "ContextMenuBackgroundColor": "#141018",
+    "ContextMenuBorderColor": "#9878FF",
+    "ContextMenuTextColor": "#9878FF",
+    "ContextMenuIconColor": "#7860D0",
+    "ContextMenuShortcutColor": "#5848A0",
+    "ContextMenuDisabledColor": "#282040",
+    "ContextMenuDisabledIconColor": "#201830",
+    "ContextMenuHighlightShortcutColor": "#A888FF",
+    "ContextMenuOuterBackgroundColor": "#060408"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#9878FF",
+    "ScanBarColor": "#7860D0",
+    "LoadingOverlayColor": "#CC0C0810",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E60C0810",
+    "TelemetryBorderColor": "#409878FF",
+    "TelemetryTitleColor": "#A888FF",
+    "TelemetryValueColor": "#9878FF",
+    "PreviewPanelBorderColor": "#302848",
+    "PreviewPdfBackgroundColor": "#141018",
+    "IndexStatusNormalColor": "#9878FF",
+    "IndexStatusWarmColor": "#7860D0",
+    "AiBadgeColor": "#B080FF",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#FF9040"                         // Pro バッジアイコンの色
+  }
+}

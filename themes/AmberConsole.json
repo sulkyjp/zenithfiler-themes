@@ -1,0 +1,92 @@
+{
+  "Description.ja": "80年代の端末を彷彿とさせる、漆黒に琥珀色が浮かぶレトロコンソール",
+  "Description.en": "A retro console evoking 1980s terminals, with amber glowing against jet black",
+  "Description.zh-CN": "唤起1980年代终端的复古控制台，琥珀色在漆黑中发光",
+  "Description.zh-TW": "喚起1980年代終端機的復古控制台，琥珀色在漆黑中發光",
+  "Description.ko-KR": "1980년대 터미널을 떠올리는 레트로 콘솔, 제트블랙 위에 앰버가 빛나는",
+  "Description.de": "Eine Retro-Konsole im Stil der 1980er-Terminals, mit bernsteinfarbenem Leuchten auf Tiefschwarz",
+  "Description.es": "Una consola retro que evoca las terminales de los años 80, con ámbar brillando sobre negro azabache",
+  "Description.fr": "Une console rétro évoquant les terminaux des années 1980, avec l'ambre luisant sur noir profond",
+  "Description.ru": "Ретро-консоль, напоминающая терминалы 1980-х, с янтарным свечением на угольно-чёрном",
+  "Description.pt": "Um console retrô que evoca os terminais dos anos 1980, com âmbar brilhando contra preto-azeviche",
+  "Author": "KAKASAKA",
+  "Category": "RetroTech",
+  "Base": {
+    "BackgroundColor": "#0A0A0A",
+    "SidebarColor": "#121212",
+    "HeaderColor": "#0A0A0A",
+    "TitleBarColor": "#000000",
+    "TitleBarTextColor": "#FFB000",                    // タイトルバーの文字・ボタン色
+    "BorderColor": "#4D3500",
+    "PrimaryTextColor": "#FFB000",
+    "SecondaryTextColor": "#996A00",
+    "InputBackgroundColor": "#121212",
+    "FocusedPaneBackgroundColor": "#1A1400",
+    "FocusedPaneTextColor": "#FFD000",
+    "FocusedPaneHeaderBackgroundColor": "#261D00",
+    "OnePointDarkColor": "#FFB000",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#4D3500",
+    "TabHoverColor": "#261D00",
+    "ToolbarSeparatorColor": "#996A00",
+    "TreeLineColor": "#664700",
+    "PopupBackgroundColor": "#121212",                 // フローティングポップアップの背景色
+    "PopupTextColor": "#FFB000",                       // ポップアップ内のテキスト色
+    "PopupHoverBackgroundColor": "#332300",            // ポップアップリスト項目のホバー背景色
+    "PopupHoverTextColor": "#FFB000"                   // ポップアップリスト項目のホバーテキスト色
+  },
+  "List": {
+    "ListHoverColor": "#261D00",
+    "SelectionColor": "#4D3500",
+    "ButtonHoverColor": "#332300",
+    "InactiveSelectionColor": "#1A1400",
+    "OptionSelectedColor": "#FFB000",
+    "OptionSelectedHoverColor": "#FFC84D",
+    "CheckboxHoverColor": "#261D00",
+    "CheckedHoverAccentColor": "#FFB000",
+    "FilterActiveIndicatorColor": "#FFB000",           // アクティブフィルターのインジケーター色
+    "FilterChipBackgroundColor": "#1A1400",            // フィルターチップのデフォルト背景色
+    "FilterChipBorderColor": "#996A00",                // フィルターチップの枠線色
+    "FilterToggleCheckedBackgroundColor": "#261D00"   // フィルタートグルのチェック済み背景色
+  },
+  "Search": {
+    "IndexSearchBackgroundColor": "#1A1400",
+    "IndexSearchIconColor": "#FFB000",
+    "IndexSearchFocusBorderColor": "#FFB000"
+  },
+  "Accent": {
+    "AccentColor": "#FFB000",
+    "ErrorTextColor": "#FF4444",
+    "DestructiveHoverBackgroundColor": "#440000",
+    "DestructiveIconColor": "#FF6B6B",
+    "SuccessColor": "#66CC00"                         // 成功・有効状態のアイコン色
+  },
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#4D3500",
+    "ContextMenuBackgroundColor": "#121212",
+    "ContextMenuBorderColor": "#FFB000",
+    "ContextMenuTextColor": "#FFB000",
+    "ContextMenuIconColor": "#FFB000",
+    "ContextMenuShortcutColor": "#996A00",
+    "ContextMenuDisabledColor": "#332300",
+    "ContextMenuDisabledIconColor": "#222222",
+    "ContextMenuHighlightShortcutColor": "#FFD000",
+    "ContextMenuOuterBackgroundColor": "#000000"
+  },
+  "Misc": {
+    "GlowBarGlowColor": "#FFB000",
+    "ScanBarColor": "#FFB000",
+    "LoadingOverlayColor": "#99000000",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E60A0A0A",
+    "TelemetryBorderColor": "#40FFB000",
+    "TelemetryTitleColor": "#FFB000",
+    "TelemetryValueColor": "#FFB000",
+    "PreviewPanelBorderColor": "#4D3500",              // クイックプレビューパネルの枠線色
+    "PreviewPdfBackgroundColor": "#121212",            // PDFプレビューのキャンバス背景色
+    "IndexStatusNormalColor": "#FFB000",               // インデックス状態テキストの通常色
+    "IndexStatusWarmColor": "#FFC84D",                 // インデックスの日時・件数バッジ色
+    "AiBadgeColor": "#BB77FF",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#FFB000"                         // Pro バッジアイコンの色
+  }
+}

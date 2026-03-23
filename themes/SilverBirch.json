@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: SilverBirch
+  //  白樺の静寂 — 北欧の白樺林、自然の中の静けさ
+  // ============================================================
+
+  "Description.ja": "白樺林を思わせる、極微量のグリーンを含むライトグレーにフォレストグリーンが映えるテーマ",
+  "Description.en": "A birch forest-inspired theme with light gray carrying a hint of green, accented by forest green",
+  "Description.zh-CN": "灵感来自白桦林的主题，浅灰带一抹绿意，以森林绿点缀",
+  "Description.zh-TW": "靈感來自白樺林的主題，淺灰帶一抹綠意，以森林綠點綴",
+  "Description.ko-KR": "자작나무 숲에서 영감을 받은 테마, 녹색빛 연한 회색에 포레스트 그린 액센트",
+  "Description.de": "Ein von Birkenwäldern inspiriertes Thema mit leicht grünlichem Grau und Waldgrün-Akzenten",
+  "Description.es": "Un tema inspirado en bosques de abedules, gris claro con un toque verde y acentos verde bosque",
+  "Description.fr": "Un thème inspiré des forêts de bouleaux, gris clair teinté de vert et rehaussé de vert forêt",
+  "Description.ru": "Тема, вдохновлённая берёзовым лесом: светло-серый с зеленоватым оттенком и акцентами лесной зелени",
+  "Description.pt": "Um tema inspirado em florestas de bétulas, cinza claro com um toque de verde e acentos verde-floresta",
+  "Author": "K.AKASAKA",
+  "Category": "Standard",
+
+  "Base": {
+    "BackgroundColor": "#EDF0EB",
+    "SidebarColor": "#E3E7E0",
+    "HeaderColor": "#EDF0EB",
+    "TitleBarColor": "#2A3328",
+    "TitleBarTextColor": "#EDF0EB",
+    "BorderColor": "#D2D8CE",
+    "PrimaryTextColor": "#1A2218",
+    "SecondaryTextColor": "#58635A",
+    "InputBackgroundColor": "#F6F8F4",
+    "FocusedPaneBackgroundColor": "#E6E9E3",
+    "FocusedPaneTextColor": "#1A2218",
+    "FocusedPaneHeaderBackgroundColor": "#D8DDD4",
+    "OnePointDarkColor": "#2A3328",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#D2D8CE",
+    "TabHoverColor": "#E6E9E3",
+    "ToolbarSeparatorColor": "#58635A",
+    "TreeLineColor": "#6EA07A",
+    "PopupBackgroundColor": "#F2F5F0",
+    "PopupTextColor": "#1A2218",
+    "PopupHoverBackgroundColor": "#2A3328",
+    "PopupHoverTextColor": "#F2F5F0"
+  },
+
+  "List": {
+    "ListHoverColor": "#E6E9E3",
+    "SelectionColor": "#D8DDD4",
+    "ButtonHoverColor": "#D8DDD4",
+    "InactiveSelectionColor": "#E6E9E3",
+    "OptionSelectedColor": "#4A7A55",
+    "OptionSelectedHoverColor": "#3E6B48",
+    "CheckboxHoverColor": "#D8DDD4",
+    "CheckedHoverAccentColor": "#355E3E",
+    "FilterActiveIndicatorColor": "#1A2218",
+    "FilterChipBackgroundColor": "#F6F8F4",
+    "FilterChipBorderColor": "#58635A",
+    "FilterToggleCheckedBackgroundColor": "#C8DDD0"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#F2F5F0",
+    "IndexSearchIconColor": "#C0A040",
+    "IndexSearchFocusBorderColor": "#A88A35"
+  },
+
+  "Accent": {
+    "AccentColor": "#4A7A55",
+    "ErrorTextColor": "#C04040",
+    "DestructiveHoverBackgroundColor": "#4C1C1C",
+    "DestructiveIconColor": "#CC4444",
+    "SuccessColor": "#3A8A48"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#D2D8CE",
+    "ContextMenuBackgroundColor": "#EDF0EB",
+    "ContextMenuBorderColor": "#D2D8CE",
+    "ContextMenuTextColor": "#1A2218",
+    "ContextMenuIconColor": "#58635A",
+    "ContextMenuShortcutColor": "#58635A",
+    "ContextMenuDisabledColor": "#AAB0A8",
+    "ContextMenuDisabledIconColor": "#AAB0A8",
+    "ContextMenuHighlightShortcutColor": "#1A2218",
+    "ContextMenuOuterBackgroundColor": "#F6F8F4"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#4A7A55",
+    "ScanBarColor": "#3E6B48",
+    "LoadingOverlayColor": "#661A2218",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E61A2218",
+    "TelemetryBorderColor": "#404A7A55",
+    "TelemetryTitleColor": "#4A7A55",
+    "TelemetryValueColor": "#EDF0EB",
+    "PreviewPanelBorderColor": "#D2D8CE",
+    "PreviewPdfBackgroundColor": "#EDF0EB",
+    "IndexStatusNormalColor": "#C0A040",
+    "IndexStatusWarmColor": "#A88A35",
+    "AiBadgeColor": "#7A6B95",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#A87838"                         // Pro バッジアイコンの色
+  }
+}

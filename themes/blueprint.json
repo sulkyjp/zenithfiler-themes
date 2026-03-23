@@ -1,0 +1,109 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Blueprint (Professional)
+  //  改善点：ホーム画面および設定フォームの入力欄・ボタンの視認性を抜本強化
+  // ============================================================
+
+  "Description.ja": "知的な設計図（青写真）をイメージした、製図用ブルーと高コントラスト・シアンの構成",
+  "Description.en": "An intellectual blueprint-inspired design with drafting blue and high-contrast cyan",
+  "Description.zh-CN": "知性蓝图风格设计，以制图蓝和高对比青色呈现",
+  "Description.zh-TW": "知性藍圖風格設計，以製圖藍和高對比青色呈現",
+  "Description.ko-KR": "제도 블루와 고대비 시안의 지적인 블루프린트 스타일 디자인",
+  "Description.de": "Ein intellektuelles, von Bauplänen inspiriertes Design mit Zeichenblau und kontrastreichem Cyan",
+  "Description.es": "Un diseño intelectual inspirado en planos con azul de dibujo técnico y cian de alto contraste",
+  "Description.fr": "Un design intellectuel inspiré des plans techniques avec bleu de dessin et cyan à haut contraste",
+  "Description.ru": "Интеллектуальный дизайн в стиле чертежей с чертёжным синим и высококонтрастным голубым",
+  "Description.pt": "Um design intelectual inspirado em plantas técnicas com azul de desenho e ciano de alto contraste",
+  "Author": "K.AKASAKA",
+  "Category": "Professional",
+
+  // ── 基本 UI 要素 ──
+  "Base": {
+    "BackgroundColor": "#1A3A6C",                      // メイン背景：ドラフティングブルー
+    "SidebarColor": "#142D52",                         // サイドバー背景：深い紺
+    "HeaderColor": "#081830",                          // アドレスバー・タブ周辺背景
+    "TitleBarColor": "#051021",                        // タイトルバー背景：最も深い紺
+    "TitleBarTextColor": "#A8D0F0",                    // タイトルバーの文字・ボタン色
+    "BorderColor": "#5C85BB",                          // ★境界線：入力フォームの輪郭をはっきりさせるため明度を向上
+    "PrimaryTextColor": "#E6F1FF",                     // メインテキスト色：極淡シアン
+    "SecondaryTextColor": "#A0C4FF",                   // サブテキスト色：淡い水色
+    "InputBackgroundColor": "#0A1A33",                 // ★入力欄背景：ホーム等のフォームを「凹み」として表現し存在を明確化
+    "FocusedPaneBackgroundColor": "#1F427A",           // フォーカス中ペイン背景
+    "FocusedPaneTextColor": "#E6F1FF",                 // フォーカス中文字
+    "FocusedPaneHeaderBackgroundColor": "#142D52",     // フォーカス中ヘッダー
+    "OnePointDarkColor": "#335C99",
+    "OnePointDarkTextColor": "#FFFFFF",                    // アクセントのブルー帯
+    "TabSeparatorColor": "#5C85BB",                    // タブ区切り
+    "TabHoverColor": "#335C99",                        // タブホバー背景
+    "ToolbarSeparatorColor": "#A0C4FF",                // ツールバーセパレーター
+    "TreeLineColor": "#6096BA",                         // ツリー階層線
+    "PopupBackgroundColor": "#0A1A33",                 // フローティングポップアップの背景色
+    "PopupTextColor": "#E6F1FF",                       // ポップアップ内のテキスト色
+    "PopupHoverBackgroundColor": "#244A85",            // ポップアップリスト項目のホバー背景色
+    "PopupHoverTextColor": "#E6F1FF"                   // ポップアップリスト項目のホバーテキスト色
+  },
+
+  // ── リスト・選択・ボタン ──
+  "List": {
+    "ListHoverColor": "#244A85",                       // リスト項目ホバー
+    "SelectionColor": "#335C99",                       // リスト項目選択
+    "ButtonHoverColor": "#4A6FA5",                     // ★ボタンホバー：ホーム画面のボタンを認識しやすく明るめに調整
+    "InactiveSelectionColor": "#142D52",               // 非アクティブ選択背景
+    "OptionSelectedColor": "#4A6FA5",                  // 選択ボタン背景：シアン系の文字が映えるブルー
+    "OptionSelectedHoverColor": "#6089C4",             // 選択中ホバー
+    "CheckboxHoverColor": "#244A85",                   // チェックボックスホバー
+    "CheckedHoverAccentColor": "#A0C4FF",               // チェック済み強調
+    "FilterActiveIndicatorColor": "#A0C4FF",           // アクティブフィルターのインジケーター色
+    "FilterChipBackgroundColor": "#142D52",            // フィルターチップのデフォルト背景色
+    "FilterChipBorderColor": "#5C85BB",                // フィルターチップの枠線色
+    "FilterToggleCheckedBackgroundColor": "#244A85"   // フィルタートグルのチェック済み背景色
+  },
+
+  // ── 検索機能 ──
+  "Search": {
+    "IndexSearchBackgroundColor": "#142D52",           // 検索バー背景
+    "IndexSearchIconColor": "#E6F1FF",                 // 検索アイコン
+    "IndexSearchFocusBorderColor": "#A0C4FF"           // 検索フォーカス枠
+  },
+
+  // ── アクセント・エラー ──
+  "Accent": {
+    "AccentColor": "#142D52",                          // 仮想フォルダ背景：深い紺
+    "ErrorTextColor": "#FFB3B3",                       // エラーテキスト
+    "DestructiveHoverBackgroundColor": "#660000",      // 破壊的ホバー
+    "DestructiveIconColor": "#FF4D4D",                  // 破壊的アイコン
+    "SuccessColor": "#66CC88"                         // 成功・有効状態のアイコン色
+  },
+
+  // ── 右クリックメニュー ──
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#4A6FA5",            // メニュー区切り線
+    "ContextMenuBackgroundColor": "#081830",           // メニュー背景：極暗紺
+    "ContextMenuBorderColor": "#4A6FA5",               // メニュー枠線
+    "ContextMenuTextColor": "#E6F1FF",                 // メニュー文字
+    "ContextMenuIconColor": "#E6F1FF",                 // メニューアイコン
+    "ContextMenuShortcutColor": "#A0C4FF",             // ショートカット文字
+    "ContextMenuDisabledColor": "#4A6FA5",             // 無効項目文字
+    "ContextMenuDisabledIconColor": "#4A6FA5",         // 無効項目アイコン
+    "ContextMenuHighlightShortcutColor": "#E6F1FF",    // ハイライト時ショートカット
+    "ContextMenuOuterBackgroundColor": "#051021"       // メニュー外枠：境界を浮き立たせる
+  },
+
+  // ── その他（マニュアル・統計情報） ──
+  "Misc": {
+    "GlowBarGlowColor": "#A0C4FF",                     // 進捗バー光
+    "ScanBarColor": "#A0C4FF",                         // スキャンバー
+    "LoadingOverlayColor": "#081830",                  // マニュアル背景
+    "ShadowColor": "#000000",                          // シャドウ
+    "TelemetryBackgroundColor": "#081830",             // 統計・マニュアルパネル背景
+    "TelemetryBorderColor": "#4A6FA5",                 // パネル枠線
+    "TelemetryTitleColor": "#A0C4FF",                  // マニュアルタイトル
+    "TelemetryValueColor": "#E6F1FF",                   // マニュアル本文・数値
+    "PreviewPanelBorderColor": "#5C85BB",              // クイックプレビューパネルの枠線色
+    "PreviewPdfBackgroundColor": "#0A1A33",            // PDFプレビューのキャンバス背景色
+    "IndexStatusNormalColor": "#E6F1FF",               // インデックス状態テキストの通常色
+    "IndexStatusWarmColor": "#FFB366",                 // インデックスの日時・件数バッジ色
+    "AiBadgeColor": "#A0A0E0",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#E0B080"                         // Pro バッジアイコンの色
+  }
+}

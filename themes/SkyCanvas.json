@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: SkyCanvas
+  //  晴れた空のキャンバス — 淡いスカイブルーにインディゴが映える
+  // ============================================================
+
+  "Description.ja": "晴れた空を写したような淡い水色に、落ち着いたインディゴが映えるテーマ",
+  "Description.en": "A pale sky blue theme like a clear sky photograph, accented with calm indigo",
+  "Description.zh-CN": "如晴空照片般的淡天蓝主题，以沉静的靛蓝点缀",
+  "Description.zh-TW": "如晴空照片般的淡天藍主題，以沉靜的靛藍點綴",
+  "Description.ko-KR": "맑은 하늘 사진 같은 옅은 스카이 블루 테마에 차분한 인디고 액센트",
+  "Description.de": "Ein blasses Himmelblau-Thema wie eine Klarhimmelfotografie, akzentuiert mit ruhigem Indigo",
+  "Description.es": "Un tema azul cielo pálido como una fotografía de cielo despejado, acentuado con índigo sereno",
+  "Description.fr": "Un thème bleu ciel pâle comme une photographie de ciel dégagé, rehaussé d'indigo calme",
+  "Description.ru": "Тема бледно-голубого неба, словно фотография ясного дня, с акцентами спокойного индиго",
+  "Description.pt": "Um tema azul-celeste pálido como uma fotografia de céu limpo, acentuado com índigo calmo",
+  "Author": "K.AKASAKA",
+  "Category": "WarmCozy",
+
+  "Base": {
+    "BackgroundColor": "#EEF4FA",
+    "SidebarColor": "#E2ECF5",
+    "HeaderColor": "#EEF4FA",
+    "TitleBarColor": "#2E4460",
+    "TitleBarTextColor": "#EEF4FA",
+    "BorderColor": "#D0DCE8",
+    "PrimaryTextColor": "#1A2A3A",
+    "SecondaryTextColor": "#5A6E80",
+    "InputBackgroundColor": "#F6FAFD",
+    "FocusedPaneBackgroundColor": "#E8F0F8",
+    "FocusedPaneTextColor": "#1A2A3A",
+    "FocusedPaneHeaderBackgroundColor": "#D8E6F2",
+    "OnePointDarkColor": "#2E4460",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#D0DCE8",
+    "TabHoverColor": "#E8F0F8",
+    "ToolbarSeparatorColor": "#5A6E80",
+    "TreeLineColor": "#80A8D0",
+    "PopupBackgroundColor": "#F2F7FC",
+    "PopupTextColor": "#1A2A3A",
+    "PopupHoverBackgroundColor": "#2E4460",
+    "PopupHoverTextColor": "#EEF4FA"
+  },
+
+  "List": {
+    "ListHoverColor": "#E8F0F8",
+    "SelectionColor": "#D8E6F2",
+    "ButtonHoverColor": "#D8E6F2",
+    "InactiveSelectionColor": "#E8F0F8",
+    "OptionSelectedColor": "#4A78B0",
+    "OptionSelectedHoverColor": "#3E689C",
+    "CheckboxHoverColor": "#D8E6F2",
+    "CheckedHoverAccentColor": "#355A8A",
+    "FilterActiveIndicatorColor": "#1A2A3A",
+    "FilterChipBackgroundColor": "#F6FAFD",
+    "FilterChipBorderColor": "#5A6E80",
+    "FilterToggleCheckedBackgroundColor": "#D0E2F4"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#F2F7FC",
+    "IndexSearchIconColor": "#C8A840",
+    "IndexSearchFocusBorderColor": "#B09030"
+  },
+
+  "Accent": {
+    "AccentColor": "#4A78B0",
+    "ErrorTextColor": "#C04040",
+    "DestructiveHoverBackgroundColor": "#4C1C24",
+    "DestructiveIconColor": "#D05050",
+    "SuccessColor": "#3A8A50"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#D0DCE8",
+    "ContextMenuBackgroundColor": "#EEF4FA",
+    "ContextMenuBorderColor": "#D0DCE8",
+    "ContextMenuTextColor": "#1A2A3A",
+    "ContextMenuIconColor": "#5A6E80",
+    "ContextMenuShortcutColor": "#5A6E80",
+    "ContextMenuDisabledColor": "#A8B8C8",
+    "ContextMenuDisabledIconColor": "#A8B8C8",
+    "ContextMenuHighlightShortcutColor": "#1A2A3A",
+    "ContextMenuOuterBackgroundColor": "#F6FAFD"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#4A78B0",
+    "ScanBarColor": "#3E689C",
+    "LoadingOverlayColor": "#661A2A3A",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E61A2A3A",
+    "TelemetryBorderColor": "#404A78B0",
+    "TelemetryTitleColor": "#4A78B0",
+    "TelemetryValueColor": "#EEF4FA",
+    "PreviewPanelBorderColor": "#D0DCE8",
+    "PreviewPdfBackgroundColor": "#EEF4FA",
+    "IndexStatusNormalColor": "#C8A840",
+    "IndexStatusWarmColor": "#B09030",
+    "AiBadgeColor": "#7868A8",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#C88850"                         // Pro バッジアイコンの色
+  }
+}

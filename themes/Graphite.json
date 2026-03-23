@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Graphite
+  //  鉛筆と紙のコントラスト — スケッチブック風ニュートラル
+  // ============================================================
+
+  "Description.ja": "デッサン用スケッチブックのような、やや暗めのウォームグレーにチャコールが映えるテーマ",
+  "Description.en": "A sketchbook-inspired theme with slightly dark warm gray and charcoal accents",
+  "Description.zh-CN": "灵感来自素描本的主题，略深的暖灰搭配炭笔色调",
+  "Description.zh-TW": "靈感來自素描本的主題，略深的暖灰搭配炭筆色調",
+  "Description.ko-KR": "스케치북에서 영감을 받은 테마, 약간 어두운 웜 그레이에 차콜 액센트",
+  "Description.de": "Ein vom Skizzenbuch inspiriertes Thema mit leicht dunklem Warmgrau und Kohleakzenten",
+  "Description.es": "Un tema inspirado en cuadernos de bocetos, gris cálido ligeramente oscuro con acentos de carboncillo",
+  "Description.fr": "Un thème inspiré des carnets de croquis, gris chaud légèrement sombre avec des accents fusain",
+  "Description.ru": "Тема в стиле альбома для набросков: слегка тёмный тёплый серый с угольными акцентами",
+  "Description.pt": "Um tema inspirado em cadernos de esboço, cinza quente levemente escuro com acentos de carvão",
+  "Author": "K.AKASAKA",
+  "Category": "Standard",
+
+  "Base": {
+    "BackgroundColor": "#E8E7E5",
+    "SidebarColor": "#DEDDDA",
+    "HeaderColor": "#E8E7E5",
+    "TitleBarColor": "#2C2C2A",
+    "TitleBarTextColor": "#E8E7E5",
+    "BorderColor": "#CCCBC8",
+    "PrimaryTextColor": "#1C1C1A",
+    "SecondaryTextColor": "#606060",
+    "InputBackgroundColor": "#F2F1EF",
+    "FocusedPaneBackgroundColor": "#E0DFDD",
+    "FocusedPaneTextColor": "#1C1C1A",
+    "FocusedPaneHeaderBackgroundColor": "#D4D3D0",
+    "OnePointDarkColor": "#2C2C2A",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#CCCBC8",
+    "TabHoverColor": "#E0DFDD",
+    "ToolbarSeparatorColor": "#606060",
+    "TreeLineColor": "#888888",
+    "PopupBackgroundColor": "#EEEDEB",
+    "PopupTextColor": "#1C1C1A",
+    "PopupHoverBackgroundColor": "#2C2C2A",
+    "PopupHoverTextColor": "#EEEDEB"
+  },
+
+  "List": {
+    "ListHoverColor": "#E0DFDD",
+    "SelectionColor": "#D4D3D0",
+    "ButtonHoverColor": "#D4D3D0",
+    "InactiveSelectionColor": "#E0DFDD",
+    "OptionSelectedColor": "#3C3C3C",
+    "OptionSelectedHoverColor": "#2E2E2E",
+    "CheckboxHoverColor": "#D4D3D0",
+    "CheckedHoverAccentColor": "#242424",
+    "FilterActiveIndicatorColor": "#1C1C1A",
+    "FilterChipBackgroundColor": "#F2F1EF",
+    "FilterChipBorderColor": "#606060",
+    "FilterToggleCheckedBackgroundColor": "#D0D0CE"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#EEEDEB",
+    "IndexSearchIconColor": "#B8A040",
+    "IndexSearchFocusBorderColor": "#A08830"
+  },
+
+  "Accent": {
+    "AccentColor": "#3C3C3C",
+    "ErrorTextColor": "#B83030",
+    "DestructiveHoverBackgroundColor": "#4C1C1C",
+    "DestructiveIconColor": "#C44040",
+    "SuccessColor": "#4A7A48"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#CCCBC8",
+    "ContextMenuBackgroundColor": "#E8E7E5",
+    "ContextMenuBorderColor": "#CCCBC8",
+    "ContextMenuTextColor": "#1C1C1A",
+    "ContextMenuIconColor": "#606060",
+    "ContextMenuShortcutColor": "#606060",
+    "ContextMenuDisabledColor": "#A8A8A6",
+    "ContextMenuDisabledIconColor": "#A8A8A6",
+    "ContextMenuHighlightShortcutColor": "#1C1C1A",
+    "ContextMenuOuterBackgroundColor": "#F2F1EF"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#3C3C3C",
+    "ScanBarColor": "#2E2E2E",
+    "LoadingOverlayColor": "#661C1C1A",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E61C1C1A",
+    "TelemetryBorderColor": "#403C3C3C",
+    "TelemetryTitleColor": "#E8E7E5",
+    "TelemetryValueColor": "#E8E7E5",
+    "PreviewPanelBorderColor": "#CCCBC8",
+    "PreviewPdfBackgroundColor": "#E8E7E5",
+    "IndexStatusNormalColor": "#B8A040",
+    "IndexStatusWarmColor": "#A08830",
+    "AiBadgeColor": "#7A5A8C",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#B07030"                         // Pro バッジアイコンの色
+  }
+}

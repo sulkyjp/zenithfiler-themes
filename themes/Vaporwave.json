@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: Vaporwave (RetroTech)
+  //  80年代ネオンピンク — ヴェイパーウェーブ/シンセウェーブの美学
+  // ============================================================
+
+  "Description.ja": "80年代のネオンピンクが漆黒に浮かぶ、ヴェイパーウェーブ美学のレトロテーマ",
+  "Description.en": "A retro theme with 1980s neon pink floating against jet black, embracing vaporwave aesthetics",
+  "Description.zh-CN": "1980年代霓虹粉在漆黑中漂浮的复古主题，拥抱蒸汽波美学",
+  "Description.zh-TW": "1980年代霓虹粉在漆黑中漂浮的復古主題，擁抱蒸汽波美學",
+  "Description.ko-KR": "제트블랙 위에 1980년대 네온 핑크가 떠다니는 레트로 테마, 베이퍼웨이브 미학",
+  "Description.de": "Ein Retro-Thema mit 1980er-Neonpink auf Tiefschwarz im Vaporwave-Stil",
+  "Description.es": "Un tema retro con rosa neón de los años 80 flotando sobre negro azabache, abrazando la estética vaporwave",
+  "Description.fr": "Un thème rétro avec du rose néon des années 80 flottant sur noir profond, embrassant l'esthétique vaporwave",
+  "Description.ru": "Ретро-тема с неоново-розовым 1980-х на угольно-чёрном в эстетике вейпорвейв",
+  "Description.pt": "Um tema retrô com rosa neon dos anos 1980 flutuando contra preto-azeviche, abraçando a estética vaporwave",
+  "Author": "K.AKASAKA",
+  "Category": "RetroTech",
+
+  "Base": {
+    "BackgroundColor": "#100810",
+    "SidebarColor": "#181018",
+    "HeaderColor": "#100810",
+    "TitleBarColor": "#201820",
+    "TitleBarTextColor": "#FF70A0",
+    "BorderColor": "#402838",
+    "PrimaryTextColor": "#FF70A0",
+    "SecondaryTextColor": "#A04868",
+    "InputBackgroundColor": "#0A040A",
+    "FocusedPaneBackgroundColor": "#181018",
+    "FocusedPaneTextColor": "#FF80B0",
+    "FocusedPaneHeaderBackgroundColor": "#281C28",
+    "OnePointDarkColor": "#FF70A0",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#402838",
+    "TabHoverColor": "#281C28",
+    "ToolbarSeparatorColor": "#A04868",
+    "TreeLineColor": "#502040",
+    "PopupBackgroundColor": "#181018",
+    "PopupTextColor": "#FF70A0",
+    "PopupHoverBackgroundColor": "#281830",
+    "PopupHoverTextColor": "#FF80B0"
+  },
+
+  "List": {
+    "ListHoverColor": "#281C28",
+    "SelectionColor": "#381828",
+    "ButtonHoverColor": "#382838",
+    "InactiveSelectionColor": "#140C14",
+    "OptionSelectedColor": "#502040",
+    "OptionSelectedHoverColor": "#602850",
+    "CheckboxHoverColor": "#281C28",
+    "CheckedHoverAccentColor": "#FF70A0",
+    "FilterActiveIndicatorColor": "#FF70A0",
+    "FilterChipBackgroundColor": "#181018",
+    "FilterChipBorderColor": "#A04868",
+    "FilterToggleCheckedBackgroundColor": "#381828"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#181018",
+    "IndexSearchIconColor": "#FF70A0",
+    "IndexSearchFocusBorderColor": "#FF80B0"
+  },
+
+  "Accent": {
+    "AccentColor": "#FF70A0",
+    "ErrorTextColor": "#FF6060",
+    "DestructiveHoverBackgroundColor": "#401818",
+    "DestructiveIconColor": "#E05050",
+    "SuccessColor": "#50C060"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#402838",
+    "ContextMenuBackgroundColor": "#181018",
+    "ContextMenuBorderColor": "#FF70A0",
+    "ContextMenuTextColor": "#FF70A0",
+    "ContextMenuIconColor": "#D05880",
+    "ContextMenuShortcutColor": "#A04868",
+    "ContextMenuDisabledColor": "#302030",
+    "ContextMenuDisabledIconColor": "#281828",
+    "ContextMenuHighlightShortcutColor": "#FF80B0",
+    "ContextMenuOuterBackgroundColor": "#0A040A"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#FF70A0",
+    "ScanBarColor": "#D05880",
+    "LoadingOverlayColor": "#CC100810",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E6100810",
+    "TelemetryBorderColor": "#40FF70A0",
+    "TelemetryTitleColor": "#FF80B0",
+    "TelemetryValueColor": "#FF70A0",
+    "PreviewPanelBorderColor": "#402838",
+    "PreviewPdfBackgroundColor": "#181018",
+    "IndexStatusNormalColor": "#FF70A0",
+    "IndexStatusWarmColor": "#D05880",
+    "AiBadgeColor": "#CC70FF",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#FFB040"                         // Pro バッジアイコンの色
+  }
+}

@@ -1,0 +1,103 @@
+{
+  // ============================================================
+  //  Zenith Filer Theme Configuration: IronSteel (Professional)
+  //  鍛鉄の重厚感 — ブルーグレーの暗色に低彩度スチールブルーが宿る
+  // ============================================================
+
+  "Description.ja": "鍛鉄を思わせるブルーグレーの暗色に、低彩度のスチールブルーが静かに宿るテーマ",
+  "Description.en": "A wrought iron-inspired dark blue-gray theme with muted steel blue quietly settled within",
+  "Description.zh-CN": "灵感源自锻铁的深蓝灰主题，柔和的钢蓝色静静沉淀其中",
+  "Description.zh-TW": "靈感源自鍛鐵的深藍灰主題，柔和的鋼藍色靜靜沉澱其中",
+  "Description.ko-KR": "단철에서 영감을 받은 다크 블루그레이 테마, 차분한 스틸 블루가 조용히 깃든",
+  "Description.de": "Ein von Schmiedeeisen inspiriertes dunkles Blaugrau-Thema mit gedämpftem Stahlblau",
+  "Description.es": "Un tema gris azulado oscuro inspirado en hierro forjado, con azul acero silenciosamente asentado",
+  "Description.fr": "Un thème bleu-gris foncé inspiré du fer forgé, où le bleu acier se pose en sourdine",
+  "Description.ru": "Тема тёмного сине-серого, вдохновлённая кованым железом, с приглушённым стальным синим",
+  "Description.pt": "Um tema azul-acinzentado escuro inspirado em ferro forjado, com azul-aço silenciosamente assentado",
+  "Author": "K.AKASAKA",
+  "Category": "Professional",
+
+  "Base": {
+    "BackgroundColor": "#181C22",
+    "SidebarColor": "#1E2428",
+    "HeaderColor": "#181C22",
+    "TitleBarColor": "#262C32",
+    "TitleBarTextColor": "#DCE2E8",
+    "BorderColor": "#3A4858",
+    "PrimaryTextColor": "#DCE2E8",
+    "SecondaryTextColor": "#8898A8",
+    "InputBackgroundColor": "#12161A",
+    "FocusedPaneBackgroundColor": "#1E2428",
+    "FocusedPaneTextColor": "#E8EEF4",
+    "FocusedPaneHeaderBackgroundColor": "#2A3238",
+    "OnePointDarkColor": "#344050",
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#3A4858",
+    "TabHoverColor": "#2A3238",
+    "ToolbarSeparatorColor": "#687888",
+    "TreeLineColor": "#4A5868",
+    "PopupBackgroundColor": "#1E2428",
+    "PopupTextColor": "#DCE2E8",
+    "PopupHoverBackgroundColor": "#303A44",
+    "PopupHoverTextColor": "#DCE2E8"
+  },
+
+  "List": {
+    "ListHoverColor": "#2A3238",
+    "SelectionColor": "#283848",
+    "ButtonHoverColor": "#384450",
+    "InactiveSelectionColor": "#242A30",
+    "OptionSelectedColor": "#305068",
+    "OptionSelectedHoverColor": "#3E6078",
+    "CheckboxHoverColor": "#2A3238",
+    "CheckedHoverAccentColor": "#6888A0",
+    "FilterActiveIndicatorColor": "#6888A0",
+    "FilterChipBackgroundColor": "#1E2428",
+    "FilterChipBorderColor": "#4A5868",
+    "FilterToggleCheckedBackgroundColor": "#283848"
+  },
+
+  "Search": {
+    "IndexSearchBackgroundColor": "#1E2428",
+    "IndexSearchIconColor": "#D0B870",
+    "IndexSearchFocusBorderColor": "#B8A058"
+  },
+
+  "Accent": {
+    "AccentColor": "#6888A0",
+    "ErrorTextColor": "#E08080",
+    "DestructiveHoverBackgroundColor": "#501818",
+    "DestructiveIconColor": "#D07070",
+    "SuccessColor": "#58A858"
+  },
+
+  "ContextMenu": {
+    "ContextMenuSeparatorColor": "#303A44",
+    "ContextMenuBackgroundColor": "#1E2428",
+    "ContextMenuBorderColor": "#3A4858",
+    "ContextMenuTextColor": "#D4DAE0",
+    "ContextMenuIconColor": "#98A8B8",
+    "ContextMenuShortcutColor": "#6A7A8A",
+    "ContextMenuDisabledColor": "#4A5868",
+    "ContextMenuDisabledIconColor": "#3A4858",
+    "ContextMenuHighlightShortcutColor": "#DCE2E8",
+    "ContextMenuOuterBackgroundColor": "#12161A"
+  },
+
+  "Misc": {
+    "GlowBarGlowColor": "#6888A0",
+    "ScanBarColor": "#587890",
+    "LoadingOverlayColor": "#CC181C22",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#E6181C22",
+    "TelemetryBorderColor": "#406888A0",
+    "TelemetryTitleColor": "#6888A0",
+    "TelemetryValueColor": "#DCE2E8",
+    "PreviewPanelBorderColor": "#3A4858",
+    "PreviewPdfBackgroundColor": "#1E2428",
+    "IndexStatusNormalColor": "#D0B870",
+    "IndexStatusWarmColor": "#C0A058",
+    "AiBadgeColor": "#9888B8",                         // AI バッジアイコンの色
+    "ProBadgeColor": "#C8A068"                         // Pro バッジアイコンの色
+  }
+}
