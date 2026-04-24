@@ -1,104 +1,170 @@
 {
-  "Description.ja": "優雅なラベンダーとミスティグレーが織りなす、上品で落ち着いたフェミニン・スタイル",
+  "Description.ja": "\u512A\u96C5\u306A\u30E9\u30D9\u30F3\u30C0\u30FC\u3068\u30DF\u30B9\u30C6\u30A3\u30B0\u30EC\u30FC\u304C\u7E54\u308A\u306A\u3059\u3001\u4E0A\u54C1\u3067\u843D\u3061\u7740\u3044\u305F\u30D5\u30A7\u30DF\u30CB\u30F3\u30FB\u30B9\u30BF\u30A4\u30EB",
   "Description.en": "An elegant feminine style woven from graceful lavender and misty gray",
-  "Description.zh-CN": "由优雅薰衣草紫与雾灰交织而成的柔美女性风格",
-  "Description.zh-TW": "由優雅薰衣草紫與霧灰交織而成的柔美女性風格",
-  "Description.ko-KR": "우아한 라벤더와 안개빛 그레이로 짜여진 여성스러운 스타일",
+  "Description.zh-CN": "\u7531\u4F18\u96C5\u85B0\u8863\u8349\u7D2B\u4E0E\u96FE\u7070\u4EA4\u7EC7\u800C\u6210\u7684\u67D4\u7F8E\u5973\u6027\u98CE\u683C",
+  "Description.zh-TW": "\u7531\u512A\u96C5\u85B0\u8863\u8349\u7D2B\u8207\u9727\u7070\u4EA4\u7E54\u800C\u6210\u7684\u67D4\u7F8E\u5973\u6027\u98A8\u683C",
+  "Description.ko-KR": "\uC6B0\uC544\uD55C \uB77C\uBCA4\uB354\uC640 \uC548\uAC1C\uBE5B \uADF8\uB808\uC774\uB85C \uC9DC\uC5EC\uC9C4 \uC5EC\uC131\uC2A4\uB7EC\uC6B4 \uC2A4\uD0C0\uC77C",
   "Description.de": "Ein eleganter, femininer Stil aus anmutigem Lavendel und nebligem Grau",
-  "Description.es": "Un estilo femenino y elegante tejido con lavanda grácil y gris brumoso",
-  "Description.fr": "Un style féminin élégant tissé de lavande gracieuse et de gris brumeux",
-  "Description.ru": "Элегантный женственный стиль, сотканный из изящной лаванды и туманного серого",
+  "Description.es": "Un estilo femenino y elegante tejido con lavanda gr\u00E1cil y gris brumoso",
+  "Description.fr": "Un style f\u00E9minin \u00E9l\u00E9gant tiss\u00E9 de lavande gracieuse et de gris brumeux",
+  "Description.ru": "\u042D\u043B\u0435\u0433\u0430\u043D\u0442\u043D\u044B\u0439 \u0436\u0435\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439 \u0441\u0442\u0438\u043B\u044C, \u0441\u043E\u0442\u043A\u0430\u043D\u043D\u044B\u0439 \u0438\u0437 \u0438\u0437\u044F\u0449\u043D\u043E\u0439 \u043B\u0430\u0432\u0430\u043D\u0434\u044B \u0438 \u0442\u0443\u043C\u0430\u043D\u043D\u043E\u0433\u043E \u0441\u0435\u0440\u043E\u0433\u043E",
   "Description.pt": "Um estilo feminino e elegante tecido com lavanda graciosa e cinza enevoado",
   "Author": "K.AKASAKA",
   "Category": "WarmCozy",
-
-  // ── 基本 UI 要素 ──
   "Base": {
-    "BackgroundColor": "#F3F0F5",                      // メイン領域（ファイルリスト等）の背景色：ラベンダーホワイト
-    "SidebarColor": "#EBE7F0",                         // サイドバー（ナビペイン）の背景色：ミスティグレー
-    "HeaderColor": "#F3F0F5",                          // カラムヘッダーの背景色
-    "TitleBarColor": "#7E718A",                        // タイトルバー（最上部）の背景色：ダスティパープル
-    "TitleBarTextColor": "#FFFFFF",                    // タイトルバーの文字・ボタン色
-    "BorderColor": "#D6CFDE",                          // ボタンやペインの境界線の色
-    "PrimaryTextColor": "#4A4452",                     // メインテキスト色（ファイル名等）：ディープパープル
-    "SecondaryTextColor": "#8B8496",                   // サブテキスト（サイズ、説明文等）の色
-    "InputBackgroundColor": "#FFFFFF",                 // テキストボックス等の入力エリア背景色
-    "FocusedPaneBackgroundColor": "#EFEBFC",           // フォーカスされているペインの背景色
-    "FocusedPaneTextColor": "#4A4452",                 // フォーカスされているペイン内のテキスト色
-    "FocusedPaneHeaderBackgroundColor": "#DFD8E8",     // フォーカスされているペインのヘッダー強調背景色
+    "BackgroundColor": "#EADDF5",
+    "PropertyPathBackgroundColor": "#EADDF5",
+    "SidebarColor": "#DDC8F0",
+    "HeaderColor": "#EADDF5",
+    "TitleBarColor": "#7E718A",
+    "TitleBarTextColor": "#FFFFFF",
+    "BorderColor": "#DED8E5",
+    "PropertyPathBorderColor": "#DED8E5",
+    "PrimaryTextColor": "#000000",
+    "ChallengeNameTextColor": "#000000",
+    "AddressBarTextColor": "#FFFFFF",
+    "AddressBarSeparatorColor": "#BFA9D8",
+    "TabLabelTextColor": "#000000",
+    "SidebarTextColor": "#000000",
+    "SettingsMenuTextColor": "#000000",
+    "SettingsMenuSelectedTextColor": "#3D3645",
+    "SettingsMenuHoverTextColor": "#3D3645",
+    "DestructiveHoverTextColor": "#FFFFFF",
+    "ChallengeCardTextColor": "#000000",
+    "DeckItemSelectedTextColor": "#3D3645",
+    "DeckItemHoverTextColor": "#3D3645",
+    "FilterChipTextColor": "#000000",
+    "FilterToggleCheckedTextColor": "#3D3645",
+    "OptionSelectedHoverTextColor": "#3D3645",
+    "CheckboxHoverTextColor": "#3D3645",
+    "ButtonIdleTextColor": "#000000",
+    "ButtonHoverTextColor": "#3D3645",
+    "InactiveSelectionTextColor": "#3D3645",
+    "SelectionTextColor": "#000000",
+    "StatusBarTextColor": "#000000",
+    "SecondaryTextColor": "#7A7185",
+    "NavSectionHeaderColor": "#7A7185",
+    "PreviewPanelTextColor": "#7A7185",
+    "FileListHeaderColor": "#7A7185",
+    "SidebarIconColor": "#7A7185",
+    "IconForegroundColor": "#7A7185",
+    "InputBackgroundColor": "#FFFFFF",
+    "FocusedPaneBackgroundColor": "#EBE4F0",
+    "FocusedPaneTextColor": "#000000",
+    "FocusedPaneHeaderBackgroundColor": "#DED8E5",
     "OnePointDarkColor": "#7E718A",
-    "OnePointDarkTextColor": "#FFFFFF",                    // UIのアクセントとなる濃いパープル
-    "TabSeparatorColor": "#D6CFDE",                    // タブ間の区切り線
-    "TabHoverColor": "#EFEBFC",                        // タブをホバーした際の色
-    "ToolbarSeparatorColor": "#8B8496",                // ツールバー内の区切り線
-    "TreeLineColor": "#B4ADC2",                         // ツリービューの階層を示す線の色
-    "PopupBackgroundColor": "#F8F6FA",                 // フローティングポップアップの背景色
-    "PopupTextColor": "#4A4452",                       // ポップアップ内のテキスト色
-    "PopupHoverBackgroundColor": "#7E718A",            // ポップアップリスト項目のホバー背景色
-    "PopupHoverTextColor": "#F8F5FA"                   // ポップアップリスト項目のホバーテキスト色
+    "OnePointDarkTextColor": "#FFFFFF",
+    "TabSeparatorColor": "#DED8E5",
+    "TabHoverColor": "#DED8E5",
+    "ToolbarSeparatorColor": "#A68DBA",
+    "TreeLineColor": "#B8B0C2",
+    "PopupBackgroundColor": "#FDFBFF",
+    "PopupTextColor": "#000000",
+    "PopupHoverBackgroundColor": "#EBE4F0",
+    "PopupHoverTextColor": "#3D3645",
+    "AddressBarEditIconColor": "#FFFFFF",
+    "AddressBarFavoriteIconColor": "#FFFFFF",
+    "AddressBarCopyIconColor": "#FFFFFF"
   },
-
-  // ── リスト・選択状態 ──
   "List": {
-    "ListHoverColor": "#DFD8E8",                       // リスト項目をホバーした際の背景色
-    "SelectionColor": "#E2D9F0",                       // リスト項目を選択した際の背景色
-    "ButtonHoverColor": "#D6CFDE",                     // ボタンをホバーした際の背景色
-    "InactiveSelectionColor": "#EFEBFC",               // フォーカスが外れた状態の選択背景色
-    "OptionSelectedColor": "#DED6E8",                  // ★選択ボタン背景：文字が埋もれないよう、霧のような淡いパープルに改善
-    "OptionSelectedHoverColor": "#D1C6DB",             // 選択中のボタンをホバーした際の色
-    "CheckboxHoverColor": "#EFEBFC",                   // チェックボックスのホバー背景色
-    "CheckedHoverAccentColor": "#7E718A",               // チェック済み項目の強調アクセント色
-    "FilterActiveIndicatorColor": "#7E718A",           // アクティブフィルターのインジケーター色
-    "FilterChipBackgroundColor": "#FFFFFF",            // フィルターチップのデフォルト背景色
-    "FilterChipBorderColor": "#8B8496",                // フィルターチップの枠線色
-    "FilterToggleCheckedBackgroundColor": "#EFEBFC"   // フィルタートグルのチェック済み背景色
+    "ListHoverColor": "#DED8E5",
+    "SelectionColor": "#D6CCE0",
+    "SettingsMenuSelectedColor": "#D6CCE0",
+    "SettingsMenuHoverColor": "#63D6CCE0",
+    "ButtonHoverColor": "#E8E2ED",
+    "InactiveSelectionColor": "#F0ECF5",
+    "OptionSelectedColor": "#D6CCE0",
+    "OptionSelectedHoverColor": "#C8BDD6",
+    "CheckboxHoverColor": "#B8A4C9",
+    "CheckedHoverAccentColor": "#957AA8",
+    "FilterActiveIndicatorColor": "#A68DBA",
+    "FilterChipBackgroundColor": "#FFFFFF",
+    "FilterChipBorderColor": "#B8B0C2",
+    "FilterToggleCheckedBackgroundColor": "#E2D9EB",
+    "ButtonIdleColor": "#EADDF5",
+    "ListTextColor": "#000000"
   },
-
-  // ── 検索機能 ──
   "Search": {
-    "IndexSearchBackgroundColor": "#F8F6FA",           // 検索バーの背景色
-    "IndexSearchIconColor": "#B4ADC2",                 // 検索アイコンの色
-    "IndexSearchFocusBorderColor": "#7E718A"           // 検索フォーカス時の枠線
+    "IndexSearchBackgroundColor": "#FFFFFF",
+    "IndexSearchIconColor": "#000000",
+    "IndexSearchFocusBorderColor": "#7E718A",
+    "SearchModeNormalBackgroundColor": "#D6CCE0",
+    "SearchModeNormalTextColor": "#000000",
+    "SearchModeGrepBackgroundColor": "#D6CCE0",
+    "SearchModeGrepTextColor": "#000000",
+    "SearchModeIndexBackgroundColor": "#D6CCE0",
+    "SearchModeIndexTextColor": "#000000",
+    "SearchModeFilterBackgroundColor": "#D6CCE0",
+    "SearchModeFilterTextColor": "#000000",
+    "NormalSearchIconColor": "#000000",
+    "NormalSearchBackgroundColor": "#FFFFFF",
+    "NormalSearchFocusBorderColor": "#7E718A",
+    "GrepSearchIconColor": "#000000",
+    "GrepSearchBackgroundColor": "#FFFFFF",
+    "GrepSearchFocusBorderColor": "#7E718A",
+    "FilterSearchIconColor": "#000000",
+    "FilterSearchBackgroundColor": "#FFFFFF",
+    "FilterSearchFocusBorderColor": "#7E718A"
   },
-
-  // ── 強調・エラー ──
   "Accent": {
-    "AccentColor": "#9B8AB0",                          // 強調箇所、プログレスバー等のアクセントカラー
-    "ErrorTextColor": "#D17A7A",                       // エラーメッセージのテキスト色
-    "DestructiveHoverBackgroundColor": "#4A1C1C",      // 破壊的操作（削除等）のホバー背景色
-    "DestructiveIconColor": "#E08E8E",                  // 破壊的操作のアイコン色
-    "SuccessColor": "#6A9E6A"                         // 成功・有効状態のアイコン色
+    "AccentColor": "#A68DBA",
+    "ErrorTextColor": "#C76B81",
+    "DestructiveHoverBackgroundColor": "#5C2D3A",
+    "DestructiveIconColor": "#E8A2B3",
+    "SuccessColor": "#7DA68D"
   },
-
-  // ── 右クリックメニュー ──
   "ContextMenu": {
-    "ContextMenuSeparatorColor": "#D6CFDE",            // メニュー内の区切り線の色
-    "ContextMenuBackgroundColor": "#F3F0F5",           // メニュー自体の背景色
-    "ContextMenuBorderColor": "#B4ADC2",               // メニューの外枠の色
-    "ContextMenuTextColor": "#4A4452",                 // メニュー内のテキスト色
-    "ContextMenuIconColor": "#7E718A",                 // メニュー内のアイコン色
-    "ContextMenuShortcutColor": "#8B8496",             // ショートカットキーの文字色
-    "ContextMenuDisabledColor": "#D6CFDE",             // 無効なメニュー項目のテキスト色
-    "ContextMenuDisabledIconColor": "#D6CFDE",         // 無効な項目のアイコン色
-    "ContextMenuHighlightShortcutColor": "#4A4452",    // ハイライト時のショートカットキー色
-    "ContextMenuOuterBackgroundColor": "#FFFFFF"       // メニュー外周の背景色
+    "ContextMenuSeparatorColor": "#DED8E5",
+    "ContextMenuBackgroundColor": "#FDFBFF",
+    "ContextMenuBorderColor": "#B8B0C2",
+    "ContextMenuTextColor": "#000000",
+    "ContextMenuIconColor": "#7E718A",
+    "ContextMenuShortcutColor": "#8B8496",
+    "ContextMenuDisabledColor": "#DED8E5",
+    "ContextMenuDisabledIconColor": "#DED8E5",
+    "ContextMenuHighlightShortcutColor": "#3D3645",
+    "ContextMenuOuterBackgroundColor": "#FFFFFF"
   },
-
-  // ── その他 ──
   "Misc": {
-    "GlowBarGlowColor": "#D6CFDE",                     // 進捗バー（GlowBar）の光るエフェクト色
-    "ScanBarColor": "#B4ADC2",                         // スキャン実行中のバーの色
-    "LoadingOverlayColor": "#667E718A",                // 読み込み中画面の被せ色（半透明）
-    "ShadowColor": "#000000",                          // ダイアログ等の影の色
-    "TelemetryBackgroundColor": "#E64A4452",           // 統計情報等のオーバーレイ背景
-    "TelemetryBorderColor": "#40B4ADC2",               // 統計情報の枠線
-    "TelemetryTitleColor": "#B4ADC2",                  // 統計情報のタイトル文字色
-    "TelemetryValueColor": "#F3F0F5",                   // 統計情報の数値文字色
-    "PreviewPanelBorderColor": "#D6CFDE",              // クイックプレビューパネルの枠線色
-    "PreviewPdfBackgroundColor": "#F3F0F5",            // PDFプレビューのキャンバス背景色
-    "IndexStatusNormalColor": "#9B7AB0",               // インデックス状態テキストの通常色
-    "IndexStatusWarmColor": "#B08A6A",                 // インデックスの日時・件数バッジ色
-    "AiBadgeColor": "#8B6BA8",                         // AI バッジアイコンの色
-    "ProBadgeColor": "#C88850"                         // Pro バッジアイコンの色
-  }
+    "GlowBarGlowColor": "#DED8E5",
+    "ScanBarColor": "#A68DBA",
+    "LoadingOverlayColor": "#667E718A",
+    "ShadowColor": "#20000000",
+    "TelemetryBackgroundColor": "#CC3D3645",
+    "TelemetryBorderColor": "#40B8B0C2",
+    "TelemetryTitleColor": "#B8B0C2",
+    "TelemetryValueColor": "#EADDF5",
+    "PreviewPanelBorderColor": "#DED8E5",
+    "PreviewPdfBackgroundColor": "#EADDF5",
+    "IndexStatusNormalColor": "#A68DBA",
+    "IndexStatusWarmColor": "#C49A76",
+    "AiBadgeColor": "#A68DBA",
+    "ProBadgeColor": "#A68DBA",
+    "DeckItemHoverColor": "#E8E2ED",
+    "ChallengeCardColor": "#E8E2ED",
+    "ChallengeCardCompletedColor": "#A68DBA",
+    "DialogButtonColor": "#EADDF5",
+    "DialogButtonHoverColor": "#DDC8F0",
+    "DialogPrimaryButtonColor": "#A68DBA",
+    "DialogPrimaryButtonHoverColor": "#957AA8",
+    "LevelBadgeColor": "#A68DBA",
+    "TitleBadgeColor": "#A68DBA",
+    "GoldAccentColor": "#C4A03C",                        // 警告アイコン等のゴールド (#161 UX 基盤)
+    "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
+    "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
+    "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "ProBadgeTextColor": "#FFFFFF",
+    "TitleBarIconHoverColor": "#A68DBA",
+    "StickmanColor": "#5D4080"
+  },
+  "NavPane": {
+    "NavItemColor": "#DDC8F0",
+    "NavItemTextColor": "#000000",
+    "NavItemHoverColor": "#E2D9EB",
+    "NavItemHoverTextColor": "#3D3645",
+    "NavItemSelectedColor": "#D6CCE0",
+    "NavItemSelectedTextColor": "#3D3645",
+    "DeckItemSelectedColor": "#DED8E5"
+  },
+  "UpdatedAt": "2026-04-12T16:48:13.2845504Z"
 }

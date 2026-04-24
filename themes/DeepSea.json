@@ -1,110 +1,173 @@
 {
-  // ============================================================
-  //  Zenith Filer Theme Configuration: DeepSea (Modern Premium)
-  //  コンセプト：深海の層を感じさせる奥行きと、サイバーな発光ディテールの融合
-  //  ブラッシュアップ：のっぺり感を排した立体的な明度設計、全要素の視認性確保
-  // ============================================================
-
-  "Description.ja": "深海のレイヤーを感じさせる奥行きと、ネオンが美しく浮かび上がるモダン・サイバー",
+  "Description.ja": "\u6DF1\u6D77\u306E\u30EC\u30A4\u30E4\u30FC\u3092\u611F\u3058\u3055\u305B\u308B\u5965\u884C\u304D\u3068\u3001\u30CD\u30AA\u30F3\u304C\u7F8E\u3057\u304F\u6D6E\u304B\u3073\u4E0A\u304C\u308B\u30E2\u30C0\u30F3\u30FB\u30B5\u30A4\u30D0\u30FC",
   "Description.en": "A modern cyber theme with deep-sea layered depth and neon accents floating beautifully",
-  "Description.zh-CN": "具有深海层次感的现代赛博主题，霓虹点缀优美漂浮",
-  "Description.zh-TW": "具有深海層次感的現代賽博主題，霓虹點綴優美漂浮",
-  "Description.ko-KR": "심해의 층위적 깊이와 아름답게 떠다니는 네온 액센트의 모던 사이버 테마",
+  "Description.zh-CN": "\u5177\u6709\u6DF1\u6D77\u5C42\u6B21\u611F\u7684\u73B0\u4EE3\u8D5B\u535A\u4E3B\u9898\uFF0C\u9713\u8679\u70B9\u7F00\u4F18\u7F8E\u6F02\u6D6E",
+  "Description.zh-TW": "\u5177\u6709\u6DF1\u6D77\u5C64\u6B21\u611F\u7684\u73FE\u4EE3\u8CFD\u535A\u4E3B\u984C\uFF0C\u9713\u8679\u9EDE\u7DB4\u512A\u7F8E\u6F02\u6D6E",
+  "Description.ko-KR": "\uC2EC\uD574\uC758 \uCE35\uC704\uC801 \uAE4A\uC774\uC640 \uC544\uB984\uB2F5\uAC8C \uB5A0\uB2E4\uB2C8\uB294 \uB124\uC628 \uC561\uC13C\uD2B8\uC758 \uBAA8\uB358 \uC0AC\uC774\uBC84 \uD14C\uB9C8",
   "Description.de": "Ein modernes Cyber-Thema mit der Tiefe geschichteter Tiefsee und elegant schwebenden Neon-Akzenten",
-  "Description.es": "Un tema cyber moderno con profundidad estratificada del mar profundo y acentos neón flotando elegantemente",
-  "Description.fr": "Un thème cyber moderne aux profondeurs stratifiées des abysses et des accents néon flottant avec élégance",
-  "Description.ru": "Современная кибертема с многослойной глубиной океана и парящими неоновыми акцентами",
+  "Description.es": "Un tema cyber moderno con profundidad estratificada del mar profundo y acentos ne\u00F3n flotando elegantemente",
+  "Description.fr": "Un th\u00E8me cyber moderne aux profondeurs stratifi\u00E9es des abysses et des accents n\u00E9on flottant avec \u00E9l\u00E9gance",
+  "Description.ru": "\u0421\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u0430\u044F \u043A\u0438\u0431\u0435\u0440\u0442\u0435\u043C\u0430 \u0441 \u043C\u043D\u043E\u0433\u043E\u0441\u043B\u043E\u0439\u043D\u043E\u0439 \u0433\u043B\u0443\u0431\u0438\u043D\u043E\u0439 \u043E\u043A\u0435\u0430\u043D\u0430 \u0438 \u043F\u0430\u0440\u044F\u0449\u0438\u043C\u0438 \u043D\u0435\u043E\u043D\u043E\u0432\u044B\u043C\u0438 \u0430\u043A\u0446\u0435\u043D\u0442\u0430\u043C\u0438",
   "Description.pt": "Um tema cyber moderno com profundidade estratificada do mar profundo e acentos neon flutuando elegantemente",
   "Author": "K.AKASAKA",
   "Category": "RetroTech",
-
-  // ── 基本 UI 要素（レイヤー構造を意識した明度設計） ──
   "Base": {
-    "BackgroundColor": "#000D1A",                      // メイン背景色：さらに深く、インクのような濃紺で奥行きを演出
-    "SidebarColor": "#051626",                         // サイドバー：メインより僅かに浮かせた質感
-    "HeaderColor": "#000810",                          // ★パンくず・ヘッダー：一段沈ませることでコンテンツを際立たせる
-    "TitleBarColor": "#0A243D",                        // タイトルバー：金属的な光沢を感じさせるダークネイビー
-    "TitleBarTextColor": "#B0EFFF",                    // タイトルバーの文字・ボタン色
-    "BorderColor": "#004060",                          // ★枠線：主張しすぎず、かつパーツの境界を明確にする「リムライト」
-    "PrimaryTextColor": "#B0EFFF",                     // メイン文字：発光感のあるシアンホワイト
-    "SecondaryTextColor": "#5080A0",                   // サブ文字：あえて彩度を落とし、情報の優先順位を明確化
-    "InputBackgroundColor": "#00050A",                 // ★入力欄背景：深海に空いた「溝」のような暗色でフォームを明確化
-    "FocusedPaneBackgroundColor": "#081F33",           // フォーカス中ペイン：発光が周囲に漏れているような質感を演出
-    "FocusedPaneTextColor": "#00FFFF",                 // フォーカス中文字：鋭いネオンシアン
-    "FocusedPaneHeaderBackgroundColor": "#0D3050",     // フォーカス中ヘッダー
-    "OnePointDarkColor": "#000D1A",
-    "OnePointDarkTextColor": "#FFFFFF",                    // ★強調時テキスト：発光背景の上で「影」として文字を浮き立たせる
-    "TabSeparatorColor": "#004060",                    // タブ区切り
-    "TabHoverColor": "#0D3050",                        // タブホバー背景
-    "ToolbarSeparatorColor": "#1A4060",                // ツールバーセパレーター
-    "TreeLineColor": "#004B73",                         // ツリービュー接続線
-    "PopupBackgroundColor": "#051626",                 // フローティングポップアップの背景色
-    "PopupTextColor": "#B0EFFF",                       // ポップアップ内のテキスト色
-    "PopupHoverBackgroundColor": "#0D253D",            // ポップアップリスト項目のホバー背景色
-    "PopupHoverTextColor": "#B0EFFF"                   // ポップアップリスト項目のホバーテキスト色
+    "BackgroundColor": "#020808",
+    "PropertyPathBackgroundColor": "#020808",
+    "SidebarColor": "#0A1414",
+    "HeaderColor": "#010505",
+    "TitleBarColor": "#0D1A1A",
+    "TitleBarTextColor": "#E0FFFF",
+    "BorderColor": "#1A3333",
+    "PropertyPathBorderColor": "#1A3333",
+    "PrimaryTextColor": "#E0FFFF",
+    "ChallengeNameTextColor": "#E0FFFF",
+    "AddressBarTextColor": "#E0FFFF",
+    "AddressBarSeparatorColor": "#E0FFFF",
+    "TabLabelTextColor": "#E0FFFF",
+    "SidebarTextColor": "#E0FFFF",
+    "SettingsMenuTextColor": "#E0FFFF",
+    "SettingsMenuSelectedTextColor": "#E0FFFF",
+    "SettingsMenuHoverTextColor": "#E0FFFF",
+    "DestructiveHoverTextColor": "#FFFFFF",
+    "ChallengeCardTextColor": "#E0FFFF",
+    "DeckItemSelectedTextColor": "#E0FFFF",
+    "DeckItemHoverTextColor": "#E0FFFF",
+    "FilterChipTextColor": "#E0FFFF",
+    "FilterToggleCheckedTextColor": "#E0FFFF",
+    "OptionSelectedHoverTextColor": "#E0FFFF",
+    "CheckboxHoverTextColor": "#E0FFFF",
+    "ButtonIdleTextColor": "#E0FFFF",
+    "ButtonHoverTextColor": "#E0FFFF",
+    "InactiveSelectionTextColor": "#E0FFFF",
+    "SelectionTextColor": "#E0FFFF",
+    "StatusBarTextColor": "#E0FFFF",
+    "SecondaryTextColor": "#60A0A0",
+    "NavSectionHeaderColor": "#60A0A0",
+    "PreviewPanelTextColor": "#60A0A0",
+    "FileListHeaderColor": "#60A0A0",
+    "SidebarIconColor": "#60A0A0",
+    "IconForegroundColor": "#60A0A0",
+    "InputBackgroundColor": "#010404",
+    "FocusedPaneBackgroundColor": "#0D1F1F",
+    "FocusedPaneTextColor": "#00FFFF",
+    "FocusedPaneHeaderBackgroundColor": "#142D2D",
+    "OnePointDarkColor": "#020808",
+    "OnePointDarkTextColor": "#00FFFF",
+    "TabSeparatorColor": "#1A3333",
+    "TabHoverColor": "#182A2A",
+    "ToolbarSeparatorColor": "#1A3333",
+    "TreeLineColor": "#1A4D4D",
+    "PopupBackgroundColor": "#0A1414",
+    "PopupTextColor": "#E0FFFF",
+    "PopupHoverBackgroundColor": "#1A2E2E",
+    "PopupHoverTextColor": "#00FFFF",
+    "AddressBarEditIconColor": "#00FFFF",
+    "AddressBarFavoriteIconColor": "#00FFFF",
+    "AddressBarCopyIconColor": "#00FFFF"
   },
-
-  // ── リスト・選択・ボタン（「押せる」質感を強化したモダン・トーン） ──
   "List": {
-    "ListHoverColor": "#0D253D",                       // リスト項目ホバー：かすかな輝き
-    "SelectionColor": "#153050",                       // リスト項目選択
-    "ButtonHoverColor": "#1A4066",                     // ★ボタンホバー：立体感を感じさせる明度変化
-    "InactiveSelectionColor": "#051626",               // 非アクティブ選択
-    "OptionSelectedColor": "#00F0F0",                  // ★選択ボタン背景：バイオルミネセンス（生物発光）のような鮮烈なシアン
-    "OptionSelectedHoverColor": "#33FFFF",             // 選択中ホバー
-    "CheckboxHoverColor": "#0D253D",                   // チェックボックスホバー
-    "CheckedHoverAccentColor": "#00FFFF",               // チェック済み強調
-    "FilterActiveIndicatorColor": "#00D1D1",           // アクティブフィルターのインジケーター色
-    "FilterChipBackgroundColor": "#001D33",            // フィルターチップのデフォルト背景色
-    "FilterChipBorderColor": "#5080A0",                // フィルターチップの枠線色
-    "FilterToggleCheckedBackgroundColor": "#0D253D"   // フィルタートグルのチェック済み背景色
+    "ListHoverColor": "#162828",
+    "SelectionColor": "#1A4040",
+    "SettingsMenuSelectedColor": "#1A4040",
+    "SettingsMenuHoverColor": "#1A4040",
+    "ButtonHoverColor": "#182A2A",
+    "InactiveSelectionColor": "#0D1A1A",
+    "OptionSelectedColor": "#00D1D1",
+    "OptionSelectedHoverColor": "#33E0E0",
+    "CheckboxHoverColor": "#00B2B2",
+    "CheckedHoverAccentColor": "#33FFFF",
+    "FilterActiveIndicatorColor": "#00FFFF",
+    "FilterChipBackgroundColor": "#0D1F1F",
+    "FilterChipBorderColor": "#1A4D4D",
+    "FilterToggleCheckedBackgroundColor": "#1A4040",
+    "ButtonIdleColor": "#0A1414"
   },
-
-  // ── 検索機能 ──
   "Search": {
-    "IndexSearchBackgroundColor": "#001D33",           // 検索バー背景
-    "IndexSearchIconColor": "#FFB000",                 // 検索アイコン：補色に近いオレンジでアクセント
-    "IndexSearchFocusBorderColor": "#00FFFF"           // 検索フォーカス枠
+    "IndexSearchBackgroundColor": "#010505",
+    "IndexSearchIconColor": "#00FFFF",
+    "IndexSearchFocusBorderColor": "#1A4040",
+    "SearchModeNormalBackgroundColor": "#1A4040",
+    "SearchModeNormalTextColor": "#00FFFF",
+    "SearchModeGrepBackgroundColor": "#1A4040",
+    "SearchModeGrepTextColor": "#00FFFF",
+    "SearchModeIndexBackgroundColor": "#1A4040",
+    "SearchModeIndexTextColor": "#00FFFF",
+    "SearchModeFilterBackgroundColor": "#1A4040",
+    "SearchModeFilterTextColor": "#00FFFF",
+    "NormalSearchIconColor": "#00FFFF",
+    "NormalSearchBackgroundColor": "#010505",
+    "NormalSearchFocusBorderColor": "#1A4040",
+    "GrepSearchIconColor": "#00FFFF",
+    "GrepSearchBackgroundColor": "#010505",
+    "GrepSearchFocusBorderColor": "#1A4040",
+    "FilterSearchIconColor": "#00FFFF",
+    "FilterSearchBackgroundColor": "#010505",
+    "FilterSearchFocusBorderColor": "#1A4040"
   },
-
-  // ── アクセント・エラー ──
   "Accent": {
-    "AccentColor": "#00D1D1",                          // ★強調色：仮想フォルダ背景。闇の中で「自ら光っている」ような透明感
-    "ErrorTextColor": "#FF5555",                       // エラー文字色
-    "DestructiveHoverBackgroundColor": "#500000",      // 破壊的ホバー
-    "DestructiveIconColor": "#FF5555",                  // 破壊的アイコン
-    "SuccessColor": "#00CC88"                         // 成功・有効状態のアイコン色
+    "AccentColor": "#00D1D1",
+    "ErrorTextColor": "#FF4D4D",
+    "DestructiveHoverBackgroundColor": "#4D0000",
+    "DestructiveIconColor": "#FF4D4D",
+    "SuccessColor": "#00FF99"
   },
-
-  // ── 右クリックメニュー（フローティング感を演出） ──
   "ContextMenu": {
-    "ContextMenuSeparatorColor": "#1A4060",            // メニュー区切り線
-    "ContextMenuBackgroundColor": "#051626",           // メニュー背景
-    "ContextMenuBorderColor": "#00FFFF",               // メニュー枠線：鋭いネオンの縁取り
-    "ContextMenuTextColor": "#B0EFFF",                 // メニュー文字
-    "ContextMenuIconColor": "#00FFFF",                 // メニューアイコン
-    "ContextMenuShortcutColor": "#5080A0",             // ショートカット文字
-    "ContextMenuDisabledColor": "#0D3050",             // 無効項目文字
-    "ContextMenuDisabledIconColor": "#0D3050",         // 無効アイコン
-    "ContextMenuHighlightShortcutColor": "#00FFFF",    // ハイライト時文字
-    "ContextMenuOuterBackgroundColor": "#00050A"       // メニュー外周背景：浮遊感を強調
+    "ContextMenuSeparatorColor": "#1A3333",
+    "ContextMenuBackgroundColor": "#0A1414",
+    "ContextMenuBorderColor": "#00FFFF",
+    "ContextMenuTextColor": "#E0FFFF",
+    "ContextMenuIconColor": "#00FFFF",
+    "ContextMenuShortcutColor": "#60A0A0",
+    "ContextMenuDisabledColor": "#2D4D4D",
+    "ContextMenuDisabledIconColor": "#2D4D4D",
+    "ContextMenuHighlightShortcutColor": "#00FFFF",
+    "ContextMenuOuterBackgroundColor": "#010404"
   },
-
-  // ── その他（マニュアル・履歴・オーバーレイ） ──
   "Misc": {
-    "GlowBarGlowColor": "#00FFFF",                     // 進捗バー光
-    "ScanBarColor": "#00FFFF",                         // スキャンバー
-    "LoadingOverlayColor": "#E6000D1A",                // マニュアル背景：不透明度を高め、没入感を演出
-    "ShadowColor": "#000000",                          // シャドウ：深い闇を表現
-    "TelemetryBackgroundColor": "#F2000D1A",           // 履歴パネル背景：透過度を抑え、情報を浮かび上がらせる
-    "TelemetryBorderColor": "#4000FFFF",               // 枠線
-    "TelemetryTitleColor": "#00FFFF",                  // パネルタイトル色
-    "TelemetryValueColor": "#B0EFFF",                   // 履歴テキスト：視認性最大化
-    "PreviewPanelBorderColor": "#004060",              // クイックプレビューパネルの枠線色
-    "PreviewPdfBackgroundColor": "#051626",            // PDFプレビューのキャンバス背景色
-    "IndexStatusNormalColor": "#FFB000",               // インデックス状態テキストの通常色
-    "IndexStatusWarmColor": "#FF8844",                 // インデックスの日時・件数バッジ色
-    "AiBadgeColor": "#AA70FF",                         // AI バッジアイコンの色
-    "ProBadgeColor": "#FF9040"                         // Pro バッジアイコンの色
-  }
+    "GlowBarGlowColor": "#00FFFF",
+    "ScanBarColor": "#00FFFF",
+    "LoadingOverlayColor": "#E6020808",
+    "ShadowColor": "#000000",
+    "TelemetryBackgroundColor": "#CC020808",
+    "TelemetryBorderColor": "#4D00FFFF",
+    "TelemetryTitleColor": "#00FFFF",
+    "TelemetryValueColor": "#E0FFFF",
+    "PreviewPanelBorderColor": "#1A3333",
+    "PreviewPdfBackgroundColor": "#020808",
+    "IndexStatusNormalColor": "#00D1D1",
+    "IndexStatusWarmColor": "#00FF99",
+    "AiBadgeColor": "#BF77FF",
+    "ProBadgeColor": "#00D1D1",
+    "DeckItemHoverColor": "#142828",
+    "ChallengeCardColor": "#0D1F1F",
+    "ChallengeCardCompletedColor": "#00D1D1",
+    "ChallengeCardCompletedTextColor": "#020808",
+    "DialogButtonColor": "#0A1414",
+    "DialogButtonHoverColor": "#182A2A",
+    "DialogPrimaryButtonColor": "#00D1D1",
+    "DialogPrimaryButtonHoverColor": "#33E0E0",
+    "LevelBadgeColor": "#00FFFF",
+    "TitleBadgeColor": "#00D1D1",
+    "GoldAccentColor": "#C4A03C",                        // 警告アイコン等のゴールド (#161 UX 基盤)
+    "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
+    "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
+    "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "ProBadgeTextColor": "#020808",
+    "LevelBadgeTextColor": "#020808",
+    "TitleBadgeTextColor": "#020808",
+    "TitleBarIconHoverColor": "#00FFFF",
+    "StickmanColor": "#A0E0E0",
+    "StickmanPreviewBackgroundColor": "#031820"
+  },
+  "NavPane": {
+    "NavItemColor": "#0A1414",
+    "NavItemTextColor": "#60A0A0",
+    "NavItemHoverColor": "#142828",
+    "NavItemHoverTextColor": "#E0FFFF",
+    "NavItemSelectedColor": "#1A4040",
+    "NavItemSelectedTextColor": "#00FFFF",
+    "DeckItemSelectedColor": "#1A4040"
+  },
+  "UpdatedAt": "2026-04-06T17:21:42.5753511Z"
 }

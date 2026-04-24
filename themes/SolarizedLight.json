@@ -1,103 +1,170 @@
 {
-  // ============================================================
-  //  Zenith Filer Theme Configuration: SolarizedLight (Optimized)
-  //  改善点: テキスト全体のコントラスト強化、ボタン視認性の向上
-  // ============================================================
-
-  "Description.ja": "長時間の作業をサポートする、計算された色彩設計（高視認性調整版）",
+  "Description.ja": "\u9577\u6642\u9593\u306E\u4F5C\u696D\u3092\u30B5\u30DD\u30FC\u30C8\u3059\u308B\u3001\u8A08\u7B97\u3055\u308C\u305F\u8272\u5F69\u8A2D\u8A08\uFF08\u9AD8\u8996\u8A8D\u6027\u8ABF\u6574\u7248\uFF09",
   "Description.en": "A scientifically calculated color design for extended work sessions (high-visibility tuned edition)",
-  "Description.zh-CN": "为长时间工作设计的科学配色方案（高可见度调优版）",
-  "Description.zh-TW": "為長時間工作設計的科學配色方案（高可見度調優版）",
-  "Description.ko-KR": "장시간 작업을 위해 과학적으로 설계된 배색 (고가시성 튜닝판)",
-  "Description.de": "Ein wissenschaftlich berechnetes Farbdesign für lange Arbeitssitzungen (hochsichtbar abgestimmt)",
-  "Description.es": "Un diseño de colores calculado científicamente para sesiones de trabajo prolongadas (edición de alta visibilidad)",
-  "Description.fr": "Un design chromatique scientifiquement calculé pour les longues sessions de travail (édition haute visibilité)",
-  "Description.ru": "Научно рассчитанная цветовая схема для длительной работы (версия с повышенной видимостью)",
-  "Description.pt": "Um design de cores cientificamente calculado para longas sessões de trabalho (edição de alta visibilidade)",
+  "Description.zh-CN": "\u4E3A\u957F\u65F6\u95F4\u5DE5\u4F5C\u8BBE\u8BA1\u7684\u79D1\u5B66\u914D\u8272\u65B9\u6848\uFF08\u9AD8\u53EF\u89C1\u5EA6\u8C03\u4F18\u7248\uFF09",
+  "Description.zh-TW": "\u70BA\u9577\u6642\u9593\u5DE5\u4F5C\u8A2D\u8A08\u7684\u79D1\u5B78\u914D\u8272\u65B9\u6848\uFF08\u9AD8\u53EF\u898B\u5EA6\u8ABF\u512A\u7248\uFF09",
+  "Description.ko-KR": "\uC7A5\uC2DC\uAC04 \uC791\uC5C5\uC744 \uC704\uD574 \uACFC\uD559\uC801\uC73C\uB85C \uC124\uACC4\uB41C \uBC30\uC0C9 (\uACE0\uAC00\uC2DC\uC131 \uD29C\uB2DD\uD310)",
+  "Description.de": "Ein wissenschaftlich berechnetes Farbdesign f\u00FCr lange Arbeitssitzungen (hochsichtbar abgestimmt)",
+  "Description.es": "Un dise\u00F1o de colores calculado cient\u00EDficamente para sesiones de trabajo prolongadas (edici\u00F3n de alta visibilidad)",
+  "Description.fr": "Un design chromatique scientifiquement calcul\u00E9 pour les longues sessions de travail (\u00E9dition haute visibilit\u00E9)",
+  "Description.ru": "\u041D\u0430\u0443\u0447\u043D\u043E \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u043D\u043D\u0430\u044F \u0446\u0432\u0435\u0442\u043E\u0432\u0430\u044F \u0441\u0445\u0435\u043C\u0430 \u0434\u043B\u044F \u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0439 \u0440\u0430\u0431\u043E\u0442\u044B (\u0432\u0435\u0440\u0441\u0438\u044F \u0441 \u043F\u043E\u0432\u044B\u0448\u0435\u043D\u043D\u043E\u0439 \u0432\u0438\u0434\u0438\u043C\u043E\u0441\u0442\u044C\u044E)",
+  "Description.pt": "Um design de cores cientificamente calculado para longas sess\u00F5es de trabalho (edi\u00E7\u00E3o de alta visibilidade)",
   "Author": "K.AKASAKA",
   "Category": "Standard",
-
   "Base": {
     "BackgroundColor": "#FDF6E3",
+    "PropertyPathBackgroundColor": "#FDF6E3",
     "SidebarColor": "#EEE8D5",
     "HeaderColor": "#FDF6E3",
-    "TitleBarColor": "#002B36",                        // より深い色に変更し、最上部の締まりを強化
-    "TitleBarTextColor": "#93A1A1",                    // タイトルバーの文字・ボタン色
-    "BorderColor": "#839496",                          // 境界線を少し濃くし、骨郭を明快に
-    "PrimaryTextColor": "#073642",                     // #657B83から変更。Solarizedで最も濃い色で読みやすく
-    "SecondaryTextColor": "#586E75",                   // #93A1A1から変更。補足情報が消えずに読める濃度へ
-    "InputBackgroundColor": "#FFFFFF",                 // 入力欄を白に近づけ、インクとのコントラストを最大化
-    "FocusedPaneBackgroundColor": "#EEE8D5",
-    "FocusedPaneTextColor": "#073642",
+    "TitleBarColor": "#002B36",
+    "TitleBarTextColor": "#EEE8D5",
+    "BorderColor": "#B2ADA3",
+    "PropertyPathBorderColor": "#B2ADA3",
+    "PrimaryTextColor": "#000000",
+    "ChallengeNameTextColor": "#000000",
+    "AddressBarTextColor": "#FFFFFF",
+    "AddressBarSeparatorColor": "#FCB5E0EB",
+    "TabLabelTextColor": "#000000",
+    "SidebarTextColor": "#000000",
+    "SettingsMenuTextColor": "#000000",
+    "SettingsMenuSelectedTextColor": "#000000",
+    "SettingsMenuHoverTextColor": "#000000",
+    "DestructiveHoverTextColor": "#FFFFFF",
+    "ChallengeCardTextColor": "#000000",
+    "DeckItemSelectedTextColor": "#002B36",
+    "DeckItemHoverTextColor": "#002B36",
+    "FilterChipTextColor": "#000000",
+    "FilterToggleCheckedTextColor": "#002B36",
+    "OptionSelectedHoverTextColor": "#002B36",
+    "CheckboxHoverTextColor": "#002B36",
+    "ButtonIdleTextColor": "#000000",
+    "ButtonHoverTextColor": "#002B36",
+    "InactiveSelectionTextColor": "#002B36",
+    "SelectionTextColor": "#000000",
+    "StatusBarTextColor": "#000000",
+    "SecondaryTextColor": "#586E75",
+    "NavSectionHeaderColor": "#586E75",
+    "PreviewPanelTextColor": "#586E75",
+    "FileListHeaderColor": "#586E75",
+    "SidebarIconColor": "#586E75",
+    "IconForegroundColor": "#000000",
+    "InputBackgroundColor": "#E2DCCA",
+    "FocusedPaneBackgroundColor": "#F5EFDC",
+    "FocusedPaneTextColor": "#000000",
     "FocusedPaneHeaderBackgroundColor": "#E0DAC5",
-    "OnePointDarkColor": "#073642",
-    "OnePointDarkTextColor": "#FFFFFF",
-    "TabSeparatorColor": "#839496",
-    "TabHoverColor": "#E0DAC5",
-    "ToolbarSeparatorColor": "#586E75",
-    "TreeLineColor": "#839496",
-    "PopupBackgroundColor": "#FEF9EA",                 // フローティングポップアップの背景色
-    "PopupTextColor": "#073642",                       // ポップアップ内のテキスト色
-    "PopupHoverBackgroundColor": "#073642",            // ポップアップリスト項目のホバー背景色
-    "PopupHoverTextColor": "#FDF6E3"                   // ポップアップリスト項目のホバーテキスト色
+    "OnePointDarkColor": "#586E75",
+    "OnePointDarkTextColor": "#FDF6E3",
+    "TabSeparatorColor": "#B2ADA3",
+    "TabHoverColor": "#D6D0BC",
+    "ToolbarSeparatorColor": "#D3CEC1",
+    "TreeLineColor": "#93A1A1",
+    "PopupBackgroundColor": "#FDF6E3",
+    "PopupTextColor": "#000000",
+    "PopupHoverBackgroundColor": "#D6D0BC",
+    "PopupHoverTextColor": "#002B36",
+    "AddressBarEditIconColor": "#FFFFFF",
+    "AddressBarFavoriteIconColor": "#FFFFFF",
+    "AddressBarCopyIconColor": "#FFFFFF"
   },
-
   "List": {
-    "ListHoverColor": "#E0DAC5",
-    "SelectionColor": "#D6D1BC",
-    "ButtonHoverColor": "#D6D1BC",
+    "ListHoverColor": "#D6D0BC",
+    "SelectionColor": "#C4BEAA",
+    "SettingsMenuSelectedColor": "#C4BEAA",
+    "SettingsMenuHoverColor": "#69C4BEAA",
+    "ButtonHoverColor": "#D6D0BC",
     "InactiveSelectionColor": "#EEE8D5",
-    "OptionSelectedColor": "#D1E0E0",                  // ボタン背景。黒文字がはっきり読める淡いブルーに変更
-    "OptionSelectedHoverColor": "#B8D0D0",
-    "CheckboxHoverColor": "#E0DAC5",
-    "CheckedHoverAccentColor": "#268BD2",
-    "FilterActiveIndicatorColor": "#073642",           // アクティブフィルターのインジケーター色
-    "FilterChipBackgroundColor": "#FFFFFF",            // フィルターチップのデフォルト背景色
-    "FilterChipBorderColor": "#586E75",                // フィルターチップの枠線色
-    "FilterToggleCheckedBackgroundColor": "#D1E0E0"   // フィルタートグルのチェック済み背景色
+    "OptionSelectedColor": "#C4BEAA",
+    "OptionSelectedHoverColor": "#B8B29E",
+    "CheckboxHoverColor": "#718100",
+    "CheckedHoverAccentColor": "#718100",
+    "FilterActiveIndicatorColor": "#5B6900",
+    "FilterChipBackgroundColor": "#EEE8D5",
+    "FilterChipBorderColor": "#93A1A1",
+    "FilterToggleCheckedBackgroundColor": "#C4BEAA",
+    "ButtonIdleColor": "#EEE8D5",
+    "ListTextColor": "#000000"
   },
-
   "Search": {
-    "IndexSearchBackgroundColor": "#FEF9EA",
-    "IndexSearchIconColor": "#B58900",
-    "IndexSearchFocusBorderColor": "#CB4B16"
+    "IndexSearchBackgroundColor": "#FFFFFF",
+    "IndexSearchIconColor": "#FFFFFF",
+    "IndexSearchFocusBorderColor": "#586E75",
+    "SearchModeNormalBackgroundColor": "#586E75",
+    "SearchModeGrepBackgroundColor": "#586E75",
+    "SearchModeIndexBackgroundColor": "#586E75",
+    "SearchModeFilterBackgroundColor": "#586E75",
+    "NormalSearchIconColor": "#FFFFFF",
+    "NormalSearchBackgroundColor": "#FFFFFF",
+    "NormalSearchFocusBorderColor": "#586E75",
+    "GrepSearchIconColor": "#FFFFFF",
+    "GrepSearchBackgroundColor": "#FFFFFF",
+    "GrepSearchFocusBorderColor": "#586E75",
+    "FilterSearchIconColor": "#FFFFFF",
+    "FilterSearchBackgroundColor": "#FFFFFF",
+    "FilterSearchFocusBorderColor": "#586E75"
   },
-
   "Accent": {
-    "AccentColor": "#268BD2",                          // 強調色（ブルー）
-    "ErrorTextColor": "#DC322F",
-    "DestructiveHoverBackgroundColor": "#3D0000",
-    "DestructiveIconColor": "#DC322F",
-    "SuccessColor": "#859900"                         // 成功・有効状態のアイコン色
+    "AccentColor": "#5B6900",
+    "ErrorTextColor": "#D30102",
+    "DestructiveHoverBackgroundColor": "#FADAD9",
+    "DestructiveIconColor": "#D30102",
+    "SuccessColor": "#5B6900"
   },
-
   "ContextMenu": {
     "ContextMenuSeparatorColor": "#D3CEC1",
     "ContextMenuBackgroundColor": "#FDF6E3",
-    "ContextMenuBorderColor": "#839496",
-    "ContextMenuTextColor": "#073642",                 // コンテキストメニューの文字も濃く
+    "ContextMenuBorderColor": "#93A1A1",
+    "ContextMenuTextColor": "#000000",
     "ContextMenuIconColor": "#586E75",
     "ContextMenuShortcutColor": "#839496",
     "ContextMenuDisabledColor": "#93A1A1",
     "ContextMenuDisabledIconColor": "#93A1A1",
-    "ContextMenuHighlightShortcutColor": "#073642",
-    "ContextMenuOuterBackgroundColor": "#FFFFFF"
+    "ContextMenuHighlightShortcutColor": "#5B6900",
+    "ContextMenuOuterBackgroundColor": "#FDF6E3"
   },
-
   "Misc": {
-    "GlowBarGlowColor": "#2AA198",
-    "ScanBarColor": "#268BD2",
-    "LoadingOverlayColor": "#66073642",
-    "ShadowColor": "#000000",
-    "TelemetryBackgroundColor": "#E6073642",
-    "TelemetryBorderColor": "#4093A1A1",
-    "TelemetryTitleColor": "#268BD2",
-    "TelemetryValueColor": "#FDF6E3",
-    "PreviewPanelBorderColor": "#839496",              // クイックプレビューパネルの枠線色
-    "PreviewPdfBackgroundColor": "#FDF6E3",            // PDFプレビューのキャンバス背景色
-    "IndexStatusNormalColor": "#B58900",               // インデックス状態テキストの通常色
-    "IndexStatusWarmColor": "#CB4B16",                 // インデックスの日時・件数バッジ色
-    "AiBadgeColor": "#6C71C4",                         // AI バッジアイコンの色
-    "ProBadgeColor": "#CB4B16"                         // Pro バッジアイコンの色
-  }
+    "GlowBarGlowColor": "#5B6900",
+    "ScanBarColor": "#5B6900",
+    "LoadingOverlayColor": "#AAFDF6E3",
+    "ShadowColor": "#33000000",
+    "TelemetryBackgroundColor": "#AAEEE8D5",
+    "TelemetryBorderColor": "#93A1A1",
+    "TelemetryTitleColor": "#5B6900",
+    "TelemetryValueColor": "#002B36",
+    "PreviewPanelBorderColor": "#B2ADA3",
+    "PreviewPdfBackgroundColor": "#FDF6E3",
+    "IndexStatusNormalColor": "#5B6900",
+    "IndexStatusWarmColor": "#CB4B16",
+    "AiBadgeColor": "#6C71C4",
+    "ProBadgeColor": "#5B6900",
+    "DeckItemHoverColor": "#E0DAC5",
+    "ChallengeCardColor": "#EEE8D5",
+    "ChallengeCardCompletedColor": "#5B6900",
+    "ChallengeCardCompletedTextColor": "#FDF6E3",
+    "DialogButtonColor": "#EEE8D5",
+    "DialogButtonHoverColor": "#E0DAC5",
+    "DialogPrimaryButtonColor": "#5B6900",
+    "DialogPrimaryButtonHoverColor": "#4A5500",
+    "LevelBadgeColor": "#5B6900",
+    "TitleBadgeColor": "#5B6900",
+    "ProBadgeTextColor": "#FDF6E3",
+    "LevelBadgeTextColor": "#FDF6E3",
+    "TitleBadgeTextColor": "#FDF6E3",
+    "TitleBarIconHoverColor": "#5B6900",
+    "FavoriteStarColor": "#5B6900",
+    "GoldAccentColor": "#C4A03C",                        // 警告アイコン等のゴールド (#161 UX 基盤)
+    "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
+    "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
+    "SubtleGlassColor": "#30FFFFFF",                    // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "StickmanColor": "#5B6900"
+  },
+  "NavPane": {
+    "NavItemColor": "#EEE8D5",
+    "NavItemTextColor": "#000000",
+    "NavItemHoverColor": "#E0DAC5",
+    "NavItemHoverTextColor": "#000000",
+    "NavItemSelectedColor": "#DED9CB",
+    "NavItemSelectedTextColor": "#000000",
+    "DeckItemSelectedColor": "#D3CEC1"
+  },
+  "UpdatedAt": "2026-04-12T16:50:12.3946066Z"
 }
