@@ -15,13 +15,14 @@
     "BackgroundColor": "#E0EAF5",
     "PropertyPathBackgroundColor": "#E0EAF5",
     "SidebarColor": "#CDD8EA",
-    "HeaderColor": "#E0EAF5",
+    "HeaderColor": "#D2DBE6",
     "TitleBarColor": "#2E4460",
     "TitleBarTextColor": "#E0EAF5",
     "BorderColor": "#AFC6DE",
+    "ListGridLineColor": "#A8BFD6",                      // 一覧の行罫線(視認性優先)
     "PropertyPathBorderColor": "#AFC6DE",
-    "PrimaryTextColor": "#000000",
-    "ChallengeNameTextColor": "#000000",
+    "PrimaryTextColor": "#2A2C2E",
+    "ChallengeNameTextColor": "#2A2C2E",
     "AddressBarTextColor": "#FFFFFF",
     "AddressBarSeparatorColor": "#96B3D0",
     "TabLabelTextColor": "#000000",
@@ -42,16 +43,16 @@
     "InactiveSelectionTextColor": "#1A2A3A",
     "SelectionTextColor": "#000000",
     "StatusBarTextColor": "#000000",
-    "SecondaryTextColor": "#4A5E70",
-    "NavSectionHeaderColor": "#4A5E70",
-    "PreviewPanelTextColor": "#4A5E70",
-    "FileListHeaderColor": "#4A5E70",
-    "SidebarIconColor": "#4A5E70",
-    "IconForegroundColor": "#4A5E70",
+    "SecondaryTextColor": "#5C748A",
+    "NavSectionHeaderColor": "#5C748A",
+    "PreviewPanelTextColor": "#5C748A",
+    "FileListHeaderColor": "#5C748A",
+    "SidebarIconColor": "#5C748A",
+    "IconForegroundColor": "#5C748A",
     "InputBackgroundColor": "#F6FAFD",
-    "FocusedPaneBackgroundColor": "#E8F0F8",
-    "FocusedPaneTextColor": "#000000",
-    "FocusedPaneHeaderBackgroundColor": "#D8E6F2",
+    "FocusedPaneBackgroundColor": "#D4DCE3",
+    "FocusedPaneTextColor": "#2A2C2E",
+    "FocusedPaneHeaderBackgroundColor": "#CAD7E2",
     "OnePointDarkColor": "#2E4460",
     "OnePointDarkTextColor": "#FFFFFF",
     "AddressBarEditIconColor": "#FFFFFF",
@@ -158,6 +159,7 @@
     "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
     "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
     "SubtleGlassColor": "#30FFFFFF",                    // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "WindowOuterBorderColor": "#00000000",               // Premium専用 外周線(非Premiumは透明)
     "StickmanColor": "#1D4575"
   },
   "NavPane": {

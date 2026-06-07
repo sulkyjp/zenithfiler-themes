@@ -12,16 +12,17 @@
   "Author": "KAKASAKA",
   "Category": "Standard",
   "Base": {
-    "BackgroundColor": "#ECEFF4",
-    "PropertyPathBackgroundColor": "#ECEFF4",
-    "SidebarColor": "#E5E9F0",
-    "HeaderColor": "#ECEFF4",
+    "BackgroundColor": "#E4E9F0",
+    "PropertyPathBackgroundColor": "#E4E9F0",
+    "SidebarColor": "#D4DBE5",
+    "HeaderColor": "#D6DBE4",
     "TitleBarColor": "#2E3440",
     "TitleBarTextColor": "#ECEFF4",
-    "BorderColor": "#D8DEE9",
-    "PropertyPathBorderColor": "#D8DEE9",
-    "PrimaryTextColor": "#000000",
-    "ChallengeNameTextColor": "#000000",
+    "BorderColor": "#CFD6E4",
+    "ListGridLineColor": "#B6BCC8",                      // 一覧の行罫線(視認性優先)
+    "PropertyPathBorderColor": "#CFD6E4",
+    "PrimaryTextColor": "#272D37",
+    "ChallengeNameTextColor": "#272D37",
     "AddressBarTextColor": "#ECEFF4",
     "AddressBarSeparatorColor": "#81A1C1",
     "TabLabelTextColor": "#000000",
@@ -42,16 +43,16 @@
     "InactiveSelectionTextColor": "#2E3440",
     "SelectionTextColor": "#000000",
     "StatusBarTextColor": "#000000",
-    "SecondaryTextColor": "#4C566A",
-    "NavSectionHeaderColor": "#4C566A",
-    "PreviewPanelTextColor": "#4C566A",
-    "FileListHeaderColor": "#4C566A",
-    "SidebarIconColor": "#4C566A",
-    "IconForegroundColor": "#4C566A",
+    "SecondaryTextColor": "#66748E",
+    "NavSectionHeaderColor": "#66748E",
+    "PreviewPanelTextColor": "#66748E",
+    "FileListHeaderColor": "#66748E",
+    "SidebarIconColor": "#66748E",
+    "IconForegroundColor": "#66748E",
     "InputBackgroundColor": "#FFFFFF",
-    "FocusedPaneBackgroundColor": "#E5E9F0",
-    "FocusedPaneTextColor": "#000000",
-    "FocusedPaneHeaderBackgroundColor": "#D8DEE9",
+    "FocusedPaneBackgroundColor": "#D4DBE5",
+    "FocusedPaneTextColor": "#272D37",
+    "FocusedPaneHeaderBackgroundColor": "#CAD3E1",
     "OnePointDarkColor": "#3B4252",
     "OnePointDarkTextColor": "#ECEFF4",
     "TabSeparatorColor": "#D8DEE9",
@@ -60,7 +61,7 @@
     "TreeLineColor": "#81A1C1",
     "PopupBackgroundColor": "#FFFFFF",
     "PopupTextColor": "#000000",
-    "PopupHoverBackgroundColor": "#ECEFF4",
+    "PopupHoverBackgroundColor": "#D7DEE8",
     "PopupHoverTextColor": "#2E3440"
   },
   "List": {
@@ -78,7 +79,7 @@
     "FilterChipBackgroundColor": "#FFFFFF",
     "FilterChipBorderColor": "#D8DEE9",
     "FilterToggleCheckedBackgroundColor": "#D8E8F0",
-    "ButtonIdleColor": "#00000000",
+    "ButtonIdleColor": "#D7DEE8",
     "ListTextColor": "#000000"
   },
   "Search": {
@@ -120,7 +121,7 @@
     "ContextMenuDisabledColor": "#D8DEE9",
     "ContextMenuDisabledIconColor": "#D8DEE9",
     "ContextMenuHighlightShortcutColor": "#2E3440",
-    "ContextMenuOuterBackgroundColor": "#D8DEE9"
+    "ContextMenuOuterBackgroundColor": "#E4E9F0"
   },
   "Misc": {
     "GlowBarGlowColor": "#88C0D0",
@@ -132,7 +133,7 @@
     "TelemetryTitleColor": "#88C0D0",
     "TelemetryValueColor": "#ECEFF4",
     "PreviewPanelBorderColor": "#D8DEE9",
-    "PreviewPdfBackgroundColor": "#ECEFF4",
+    "PreviewPdfBackgroundColor": "#E4E9F0",
     "IndexStatusNormalColor": "#5E81AC",
     "IndexStatusWarmColor": "#D08770",
     "AiBadgeColor": "#B48EAD",
@@ -151,6 +152,7 @@
     "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
     "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
     "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "WindowOuterBorderColor": "#00000000",               // Premium専用 外周線(非Premiumは透明)
     "TitleBarIconHoverColor": "#88C0D0",
     "ProBadgeTextColor": "#5E81AC",
     "LevelBadgeTextColor": "#5E81AC",

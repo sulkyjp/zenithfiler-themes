@@ -15,10 +15,11 @@
     "BackgroundColor": "#020808",
     "PropertyPathBackgroundColor": "#020808",
     "SidebarColor": "#0A1414",
-    "HeaderColor": "#010505",
+    "HeaderColor": "#051212",
     "TitleBarColor": "#0D1A1A",
     "TitleBarTextColor": "#E0FFFF",
     "BorderColor": "#1A3333",
+    "ListGridLineColor": "#022B2B",                      // 一覧の行罫線(視認性優先)
     "PropertyPathBorderColor": "#1A3333",
     "PrimaryTextColor": "#E0FFFF",
     "ChallengeNameTextColor": "#E0FFFF",
@@ -42,12 +43,12 @@
     "InactiveSelectionTextColor": "#E0FFFF",
     "SelectionTextColor": "#E0FFFF",
     "StatusBarTextColor": "#E0FFFF",
-    "SecondaryTextColor": "#60A0A0",
-    "NavSectionHeaderColor": "#60A0A0",
-    "PreviewPanelTextColor": "#60A0A0",
-    "FileListHeaderColor": "#60A0A0",
-    "SidebarIconColor": "#60A0A0",
-    "IconForegroundColor": "#60A0A0",
+    "SecondaryTextColor": "#487777",
+    "NavSectionHeaderColor": "#487777",
+    "PreviewPanelTextColor": "#487777",
+    "FileListHeaderColor": "#487777",
+    "SidebarIconColor": "#487777",
+    "IconForegroundColor": "#487777",
     "InputBackgroundColor": "#010404",
     "FocusedPaneBackgroundColor": "#0D1F1F",
     "FocusedPaneTextColor": "#00FFFF",
@@ -118,7 +119,7 @@
     "ContextMenuBorderColor": "#00FFFF",
     "ContextMenuTextColor": "#E0FFFF",
     "ContextMenuIconColor": "#00FFFF",
-    "ContextMenuShortcutColor": "#60A0A0",
+    "ContextMenuShortcutColor": "#487777",
     "ContextMenuDisabledColor": "#2D4D4D",
     "ContextMenuDisabledIconColor": "#2D4D4D",
     "ContextMenuHighlightShortcutColor": "#00FFFF",
@@ -153,6 +154,7 @@
     "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
     "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
     "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "WindowOuterBorderColor": "#00000000",               // Premium専用 外周線(非Premiumは透明)
     "ProBadgeTextColor": "#020808",
     "LevelBadgeTextColor": "#020808",
     "TitleBadgeTextColor": "#020808",
@@ -162,7 +164,7 @@
   },
   "NavPane": {
     "NavItemColor": "#0A1414",
-    "NavItemTextColor": "#60A0A0",
+    "NavItemTextColor": "#487777",
     "NavItemHoverColor": "#142828",
     "NavItemHoverTextColor": "#E0FFFF",
     "NavItemSelectedColor": "#1A4040",

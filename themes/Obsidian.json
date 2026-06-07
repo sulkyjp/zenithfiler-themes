@@ -15,10 +15,11 @@
     "BackgroundColor": "#16140F",
     "PropertyPathBackgroundColor": "#16140F",
     "SidebarColor": "#1C1A14",
-    "HeaderColor": "#16140F",
+    "HeaderColor": "#1C1914",
     "TitleBarColor": "#221F1A",
     "TitleBarTextColor": "#E8E4DC",
     "BorderColor": "#463E35",
+    "ListGridLineColor": "#332F21",                      // 一覧の行罫線(視認性優先)
     "PropertyPathBorderColor": "#463E35",
     "PrimaryTextColor": "#E8E4DC",
     "ChallengeNameTextColor": "#E8E4DC",
@@ -42,12 +43,12 @@
     "InactiveSelectionTextColor": "#E8E4DC",
     "SelectionTextColor": "#E8E4DC",
     "StatusBarTextColor": "#E8E4DC",
-    "SecondaryTextColor": "#A0988E",
-    "NavSectionHeaderColor": "#A0988E",
-    "PreviewPanelTextColor": "#A0988E",
-    "FileListHeaderColor": "#A0988E",
-    "SidebarIconColor": "#A0988E",
-    "IconForegroundColor": "#A0988E",
+    "SecondaryTextColor": "#7A746D",
+    "NavSectionHeaderColor": "#7A746D",
+    "PreviewPanelTextColor": "#7A746D",
+    "FileListHeaderColor": "#7A746D",
+    "SidebarIconColor": "#7A746D",
+    "IconForegroundColor": "#7A746D",
     "InputBackgroundColor": "#25221C",
     "FocusedPaneBackgroundColor": "#1E1C16",
     "FocusedPaneTextColor": "#F0ECE4",
@@ -152,7 +153,8 @@
     "GoldAccentColor": "#C4A03C",                        // 警告アイコン等のゴールド (#161 UX 基盤)
     "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
     "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
-    "SubtleGlassColor": "#30FFFFFF"                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "WindowOuterBorderColor": "#00000000"               // Premium専用 外周線(非Premiumは透明)
   },
   "NavPane": {
     "NavItemColor": "#1C1A14",

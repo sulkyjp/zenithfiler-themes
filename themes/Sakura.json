@@ -15,13 +15,14 @@
     "BackgroundColor": "#FFE5EB",
     "PropertyPathBackgroundColor": "#FFE5EB",
     "SidebarColor": "#F5CED6",
-    "HeaderColor": "#FFE5EB",
+    "HeaderColor": "#F0D7DD",
     "TitleBarColor": "#B57A88",
     "TitleBarTextColor": "#FFFFFF",
     "BorderColor": "#DDC6CB",
+    "ListGridLineColor": "#CFB9BE",                      // 一覧の行罫線(視認性優先)
     "PropertyPathBorderColor": "#DDC6CB",
-    "PrimaryTextColor": "#000000",
-    "ChallengeNameTextColor": "#000000",
+    "PrimaryTextColor": "#322D2E",
+    "ChallengeNameTextColor": "#322D2E",
     "AddressBarTextColor": "#FFFFFF",
     "AddressBarSeparatorColor": "#ECAAB6",
     "TabLabelTextColor": "#000000",
@@ -49,9 +50,9 @@
     "SidebarIconColor": "#7D6569",
     "IconForegroundColor": "#7D6569",
     "InputBackgroundColor": "#FFFFFF",
-    "FocusedPaneBackgroundColor": "#FDF0F3",
-    "FocusedPaneTextColor": "#000000",
-    "FocusedPaneHeaderBackgroundColor": "#F7E1E6",
+    "FocusedPaneBackgroundColor": "#E6DADD",
+    "FocusedPaneTextColor": "#322D2E",
+    "FocusedPaneHeaderBackgroundColor": "#E7D3D7",
     "OnePointDarkColor": "#B57A88",
     "OnePointDarkTextColor": "#FFFFFF",
     "TabSeparatorColor": "#DDC6CB",
@@ -153,6 +154,7 @@
     "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
     "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
     "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "WindowOuterBorderColor": "#00000000",               // Premium専用 外周線(非Premiumは透明)
     "TitleBarIconHoverColor": "#C98493",
     "StickmanColor": "#8A2D45"
   },

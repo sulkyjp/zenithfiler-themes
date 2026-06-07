@@ -14,14 +14,15 @@
   "Base": {
     "BackgroundColor": "#DEE4ED",
     "PropertyPathBackgroundColor": "#DEE4ED",
-    "SidebarColor": "#D1D9E6",
-    "HeaderColor": "#DEE4ED",
+    "SidebarColor": "#CED6E2",
+    "HeaderColor": "#D0D6DE",
     "TitleBarColor": "#1E2430",
     "TitleBarTextColor": "#DEE4ED",
     "BorderColor": "#B8C5D6",
+    "ListGridLineColor": "#ACB8C8",                      // 一覧の行罫線(視認性優先)
     "PropertyPathBorderColor": "#B8C5D6",
-    "PrimaryTextColor": "#000000",
-    "ChallengeNameTextColor": "#000000",
+    "PrimaryTextColor": "#27282A",
+    "ChallengeNameTextColor": "#27282A",
     "AddressBarTextColor": "#FFFFFF",
     "AddressBarSeparatorColor": "#9CB7F1",
     "TabLabelTextColor": "#000000",
@@ -42,15 +43,15 @@
     "InactiveSelectionTextColor": "#232936",
     "SelectionTextColor": "#000000",
     "StatusBarTextColor": "#000000",
-    "SecondaryTextColor": "#545E75",
-    "NavSectionHeaderColor": "#545E75",
-    "PreviewPanelTextColor": "#545E75",
-    "FileListHeaderColor": "#545E75",
-    "SidebarIconColor": "#545E75",
-    "IconForegroundColor": "#545E75",
+    "SecondaryTextColor": "#626E88",
+    "NavSectionHeaderColor": "#626E88",
+    "PreviewPanelTextColor": "#626E88",
+    "FileListHeaderColor": "#626E88",
+    "SidebarIconColor": "#626E88",
+    "IconForegroundColor": "#626E88",
     "InputBackgroundColor": "#F0F3F7",
-    "FocusedPaneBackgroundColor": "#D8E0EB",
-    "FocusedPaneTextColor": "#000000",
+    "FocusedPaneBackgroundColor": "#CFD6E1",
+    "FocusedPaneTextColor": "#27282A",
     "FocusedPaneHeaderBackgroundColor": "#C4CEDD",
     "OnePointDarkColor": "#2A3447",
     "OnePointDarkTextColor": "#FFFFFF",
@@ -153,6 +154,7 @@
     "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
     "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
     "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
+    "WindowOuterBorderColor": "#00000000",               // Premium専用 外周線(非Premiumは透明)
     "TitleBarIconHoverColor": "#E07040",
     "StickmanColor": "#883500"
   },
