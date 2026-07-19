@@ -1,25 +1,26 @@
 {
   "Description.ja": "\u5B9D\u98FE\u306E\u8276\u3002\u9EC4\u307F\u5BC4\u308A\u306E\u4E0A\u8CEA\u306A\u30B7\u30E3\u30F3\u30D1\u30F3\u5730\u306B\u3001\u8276\u3084\u304B\u306A\u30ED\u30FC\u30BA\u30B4\u30FC\u30EB\u30C9\u306E\u30E1\u30BF\u30EA\u30C3\u30AF\u30D0\u30FC\u3068\u30A2\u30AF\u30BB\u30F3\u30C8\u304C\u4E3B\u5F79\u3092\u5F35\u308B\u30D7\u30EC\u30DF\u30A2\u30E0\u30C6\u30FC\u30DE",
-  "Description.en": "A jeweller's lustre. A warm champagne field where a lustrous rose-gold metallic bar and accents take centre stage",
+  "Description.en": "A jeweller\u0027s lustre. A warm champagne field where a lustrous rose-gold metallic bar and accents take centre stage",
   "Description.zh-CN": "\u73E0\u5B9D\u822C\u7684\u5149\u6CFD\u3002\u504F\u9EC4\u7684\u4E0A\u8D28\u9999\u69DF\u5E95\u8272\uFF0C\u73AB\u7470\u91D1\u91D1\u5C5E\u6807\u9898\u680F\u4E0E\u70B9\u7F00\u62C5\u5F53\u4E3B\u89D2\u7684\u9AD8\u7EA7\u4E3B\u9898",
   "Description.zh-TW": "\u73E0\u5BF6\u822C\u7684\u5149\u6FA4\u3002\u504F\u9EC3\u7684\u4E0A\u8CEA\u9999\u6AB3\u5E95\u8272\uFF0C\u73AB\u7470\u91D1\u91D1\u5C6C\u6A19\u984C\u6B04\u8207\u9EDE\u7DB4\u64D4\u7576\u4E3B\u89D2\u7684\u9AD8\u7D1A\u4E3B\u984C",
   "Description.ko-KR": "\uBCF4\uC11D\uC758 \uC724\uAE30. \uB178\uB780\uBE5B\uC774 \uB3C4\uB294 \uACE0\uAE09 \uC0F4\uD398\uC778 \uBC14\uD0D5\uC5D0 \uC724\uAE30 \uB098\uB294 \uB85C\uC988 \uACE8\uB4DC \uBA54\uD0C8\uB9AD \uBC14\uC640 \uC561\uC13C\uD2B8\uAC00 \uC8FC\uC5ED\uC778 \uD504\uB9AC\uBBF8\uC5C4 \uD14C\uB9C8",
   "Description.de": "Juwelenglanz. Eine warme Champagnerfl\u00E4che, auf der eine gl\u00E4nzende Ros\u00E9gold-Metallleiste und Akzente die Hauptrolle spielen",
   "Description.es": "Lustre de joyero. Un c\u00E1lido fondo champ\u00E1n donde una barra met\u00E1lica de oro rosa lustroso y sus acentos son protagonistas",
-  "Description.fr": "L'éclat du joaillier. Un fond champagne chaud où une barre métallique en or rose lustré et ses accents tiennent le premier rôle",
+  "Description.fr": "L\u0027\u00E9clat du joaillier. Un fond champagne chaud o\u00F9 une barre m\u00E9tallique en or rose lustr\u00E9 et ses accents tiennent le premier r\u00F4le",
   "Description.ru": "\u042E\u0432\u0435\u043B\u0438\u0440\u043D\u044B\u0439 \u0431\u043B\u0435\u0441\u043A. \u0422\u0451\u043F\u043B\u044B\u0439 \u0448\u0430\u043C\u043F\u0430\u043D\u0441\u043A\u0438\u0439 \u0444\u043E\u043D, \u043D\u0430 \u043A\u043E\u0442\u043E\u0440\u043E\u043C \u0433\u043B\u0430\u0432\u043D\u0443\u044E \u0440\u043E\u043B\u044C \u0438\u0433\u0440\u0430\u044E\u0442 \u0441\u0438\u044F\u044E\u0449\u0430\u044F \u043F\u0430\u043D\u0435\u043B\u044C \u0438\u0437 \u0440\u043E\u0437\u043E\u0432\u043E\u0433\u043E \u0437\u043E\u043B\u043E\u0442\u0430 \u0438 \u0430\u043A\u0446\u0435\u043D\u0442\u044B",
-  "Description.pt": "Brilho de joalheiro. Um fundo champanhe quente onde uma barra metálica de ouro rosa lustroso e seus acentos são protagonistas",
+  "Description.pt": "Brilho de joalheiro. Um fundo champanhe quente onde uma barra met\u00E1lica de ouro rosa lustroso e seus acentos s\u00E3o protagonistas",
   "Author": "K.AKASAKA",
   "Category": "Premium",
+  "UpdatedAt": "2026-07-18T16:27:31Z",
   "Base": {
     "BackgroundColor": "#E5DFD5",
     "PropertyPathBackgroundColor": "#E5DFD5",
     "SidebarColor": "#D2C9BD",
     "HeaderColor": "#D4CCC1",
-    "TitleBarColor": "#9F6A57",
+    "TitleBarColor": "#845848",
     "TitleBarTextColor": "#F7ECE3",
     "BorderColor": "#CABAB0",
-    "ListGridLineColor": "#C5B1A6",                      // 一覧の行罫線(視認性優先)
+    "ListGridLineColor": "#C5B1A6",
     "PropertyPathBorderColor": "#CABAB0",
     "PrimaryTextColor": "#292220",
     "ChallengeNameTextColor": "#292220",
@@ -42,7 +43,7 @@
     "ButtonHoverTextColor": "#251E1B",
     "InactiveSelectionTextColor": "#251E1B",
     "SelectionTextColor": "#2A1D17",
-    "StatusBarTextColor": "#292220",
+    "StatusBarTextColor": "#221C1A",
     "SecondaryTextColor": "#796A63",
     "NavSectionHeaderColor": "#796A63",
     "PreviewPanelTextColor": "#796A63",
@@ -51,9 +52,8 @@
     "IconForegroundColor": "#77675F",
     "InputBackgroundColor": "#F0EAE1",
     "FocusedPaneBackgroundColor": "#DAD4C8",
-    "FocusedPaneTextColor": "#292220",
     "FocusedPaneHeaderBackgroundColor": "#D4C7BC",
-    "OnePointDarkColor": "#9F6A57",
+    "OnePointDarkColor": "#845848",
     "OnePointDarkTextColor": "#FFFFFF",
     "TabSeparatorColor": "#D3C4B8",
     "TabHoverColor": "#D8CABB",
@@ -88,24 +88,24 @@
   "Search": {
     "IndexSearchBackgroundColor": "#F0EAE1",
     "IndexSearchIconColor": "#292220",
-    "IndexSearchFocusBorderColor": "#995640",
+    "IndexSearchFocusBorderColor": "#AE8B57",
     "SearchModeNormalBackgroundColor": "#CFB0A2",
-    "SearchModeGrepBackgroundColor": "#CFB0A2",
-    "SearchModeIndexBackgroundColor": "#CFB0A2",
-    "SearchModeFilterBackgroundColor": "#CFB0A2",
+    "SearchModeGrepBackgroundColor": "#A9BFA6",
+    "SearchModeIndexBackgroundColor": "#D6BE94",
+    "SearchModeFilterBackgroundColor": "#B2AAC6",
     "NormalSearchIconColor": "#292220",
     "NormalSearchBackgroundColor": "#F0EAE1",
     "NormalSearchFocusBorderColor": "#995640",
     "GrepSearchIconColor": "#292220",
     "GrepSearchBackgroundColor": "#F0EAE1",
-    "GrepSearchFocusBorderColor": "#995640",
+    "GrepSearchFocusBorderColor": "#5C835F",
     "FilterSearchIconColor": "#292220",
     "FilterSearchBackgroundColor": "#F0EAE1",
-    "FilterSearchFocusBorderColor": "#995640",
+    "FilterSearchFocusBorderColor": "#6A6094",
     "SearchModeNormalTextColor": "#292220",
-    "SearchModeGrepTextColor": "#292220",
-    "SearchModeIndexTextColor": "#292220",
-    "SearchModeFilterTextColor": "#292220"
+    "SearchModeGrepTextColor": "#232A22",
+    "SearchModeIndexTextColor": "#2A2318",
+    "SearchModeFilterTextColor": "#232130"
   },
   "Accent": {
     "AccentColor": "#995640",
@@ -120,7 +120,7 @@
     "ContextMenuBorderColor": "#CEBEB4",
     "ContextMenuTextColor": "#292220",
     "ContextMenuIconColor": "#715F58",
-    "ContextMenuShortcutColor": "#998880",
+    "ContextMenuShortcutColor": "#8E7D75",
     "ContextMenuDisabledColor": "#A89B93",
     "ContextMenuDisabledIconColor": "#A89B93",
     "ContextMenuHighlightShortcutColor": "#995640",
@@ -147,7 +147,9 @@
     "ChallengeCardCompletedTextColor": "#FFFFFF",
     "DialogButtonColor": "#DDD2C7",
     "DialogButtonHoverColor": "#D3C4B7",
+    "DialogButtonTextColor": "#292220",
     "DialogPrimaryButtonColor": "#995640",
+    "DialogPrimaryButtonTextColor": "#FFFFFF",
     "DialogPrimaryButtonHoverColor": "#854732",
     "LevelBadgeColor": "#9D5B4B",
     "TitleBadgeColor": "#9D5B4B",
@@ -157,11 +159,11 @@
     "TitleBarIconHoverColor": "#F0C8B9",
     "StickmanColor": "#865140",
     "FavoriteStarColor": "#B29250",
-    "GoldAccentColor": "#AE8B57",                        // 警告アイコン等のゴールド (#161 UX 基盤)
-    "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
-    "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
-    "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
-    "WindowOuterBorderColor": "#7A4032"                 // Premium専用 外周線(深いローズゴールド)
+    "GoldAccentColor": "#AE8B57",
+    "OverlayBackgroundColor": "#A0000000",
+    "OverlayTextColor": "#E0E0E0",
+    "SubtleGlassColor": "#30FFFFFF",
+    "WindowOuterBorderColor": "#7A4032"
   },
   "NavPane": {
     "NavItemColor": "#00000000",
@@ -171,6 +173,5 @@
     "NavItemSelectedColor": "#9CCFB0A2",
     "NavItemSelectedTextColor": "#2A1D17",
     "DeckItemSelectedColor": "#CFB0A2"
-  },
-  "UpdatedAt": "2026-06-07T00:00:00.0000000Z"
+  }
 }

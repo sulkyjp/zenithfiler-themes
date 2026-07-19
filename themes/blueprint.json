@@ -11,6 +11,7 @@
   "Description.pt": "Um whiteprint de desenho. Um fundo de papel de desenho branco-gelo frio liderado por um acento azul de desenho e uma barra de t\u00EDtulo azul-marinho",
   "Author": "K.AKASAKA",
   "Category": "Professional",
+  "UpdatedAt": "2026-07-18T16:52:08Z",
   "Base": {
     "BackgroundColor": "#E2E6EC",
     "PropertyPathBackgroundColor": "#E2E6EC",
@@ -19,7 +20,7 @@
     "TitleBarColor": "#274472",
     "TitleBarTextColor": "#E4EDF7",
     "BorderColor": "#B8C0CD",
-    "ListGridLineColor": "#ABB5C4",                      // 一覧の行罫線(視認性優先)
+    "ListGridLineColor": "#B4BCCA",
     "PropertyPathBorderColor": "#B8C0CD",
     "PrimaryTextColor": "#1B2230",
     "ChallengeNameTextColor": "#1B2230",
@@ -43,15 +44,14 @@
     "InactiveSelectionTextColor": "#142036",
     "SelectionTextColor": "#142036",
     "StatusBarTextColor": "#1B2230",
-    "SecondaryTextColor": "#626C7E",
-    "NavSectionHeaderColor": "#626C7E",
-    "PreviewPanelTextColor": "#626C7E",
-    "FileListHeaderColor": "#626C7E",
-    "SidebarIconColor": "#5F697B",
-    "IconForegroundColor": "#5F697B",
+    "SecondaryTextColor": "#646F83",
+    "NavSectionHeaderColor": "#646F83",
+    "PreviewPanelTextColor": "#646F83",
+    "FileListHeaderColor": "#646F83",
+    "SidebarIconColor": "#5A6476",
+    "IconForegroundColor": "#5A6476",
     "InputBackgroundColor": "#EFF2F6",
     "FocusedPaneBackgroundColor": "#D6DBE3",
-    "FocusedPaneTextColor": "#1B2230",
     "FocusedPaneHeaderBackgroundColor": "#CAD1DB",
     "OnePointDarkColor": "#274472",
     "OnePointDarkTextColor": "#FFFFFF",
@@ -65,7 +65,7 @@
     "PopupHoverTextColor": "#142036"
   },
   "List": {
-    "ListHoverColor": "#C2CBD8",
+    "ListHoverColor": "#C7CFDB",
     "SelectionColor": "#A6BBD8",
     "SettingsMenuSelectedColor": "#A6BBD8",
     "SettingsMenuHoverColor": "#66A6BBD8",
@@ -79,25 +79,32 @@
     "FilterChipBackgroundColor": "#CFD6E0",
     "FilterChipBorderColor": "#B6BFCC",
     "FilterToggleCheckedBackgroundColor": "#A6BBD8",
-    "ButtonIdleColor": "#C7CFDB"
+    "ButtonIdleColor": "#C7CFDB",
+    "ListTextColor": "#1B2230",
+    "ListSelectedTextColor": "#142036",
+    "ListAlternateRowColor": "#DADFE6"
   },
   "Search": {
     "IndexSearchBackgroundColor": "#EFF2F6",
     "IndexSearchIconColor": "#1B2230",
     "IndexSearchFocusBorderColor": "#52739E",
     "SearchModeNormalBackgroundColor": "#A6BBD8",
-    "SearchModeGrepBackgroundColor": "#A6BBD8",
-    "SearchModeIndexBackgroundColor": "#A6BBD8",
-    "SearchModeFilterBackgroundColor": "#A6BBD8",
+    "SearchModeNormalTextColor": "#142036",
+    "SearchModeGrepBackgroundColor": "#A9CBB0",
+    "SearchModeGrepTextColor": "#1B3222",
+    "SearchModeIndexBackgroundColor": "#D9C58C",
+    "SearchModeIndexTextColor": "#332B14",
+    "SearchModeFilterBackgroundColor": "#B4B0D6",
+    "SearchModeFilterTextColor": "#221F3A",
     "NormalSearchIconColor": "#1B2230",
     "NormalSearchBackgroundColor": "#EFF2F6",
     "NormalSearchFocusBorderColor": "#52739E",
-    "GrepSearchIconColor": "#1B2230",
+    "GrepSearchIconColor": "#3E6B4E",
     "GrepSearchBackgroundColor": "#EFF2F6",
-    "GrepSearchFocusBorderColor": "#52739E",
-    "FilterSearchIconColor": "#1B2230",
+    "GrepSearchFocusBorderColor": "#4C7B58",
+    "FilterSearchIconColor": "#5A5E8E",
     "FilterSearchBackgroundColor": "#EFF2F6",
-    "FilterSearchFocusBorderColor": "#52739E"
+    "FilterSearchFocusBorderColor": "#5A5E8E"
   },
   "Accent": {
     "AccentColor": "#52739E",
@@ -112,7 +119,7 @@
     "ContextMenuBorderColor": "#B6BFCC",
     "ContextMenuTextColor": "#1B2230",
     "ContextMenuIconColor": "#586375",
-    "ContextMenuShortcutColor": "#7F8A9C",
+    "ContextMenuShortcutColor": "#8191AB",
     "ContextMenuDisabledColor": "#959FB0",
     "ContextMenuDisabledIconColor": "#959FB0",
     "ContextMenuHighlightShortcutColor": "#52739E",
@@ -138,8 +145,10 @@
     "ChallengeCardCompletedColor": "#52739E",
     "ChallengeCardCompletedTextColor": "#FFFFFF",
     "DialogButtonColor": "#CFD6E0",
+    "DialogButtonTextColor": "#1B2230",
     "DialogButtonHoverColor": "#C2CBD8",
     "DialogPrimaryButtonColor": "#52739E",
+    "DialogPrimaryButtonTextColor": "#FFFFFF",
     "DialogPrimaryButtonHoverColor": "#3C597F",
     "LevelBadgeColor": "#52739E",
     "TitleBadgeColor": "#52739E",
@@ -150,20 +159,19 @@
     "StickmanColor": "#3C597F",
     "StickmanPreviewBackgroundColor": "#CCD6DAE0",
     "FavoriteStarColor": "#B8973A",
-    "GoldAccentColor": "#A8902F",                        // 警告アイコン等のゴールド (#161 UX 基盤)
-    "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
-    "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
-    "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
-    "WindowOuterBorderColor": "#00000000"               // Premium専用 外周線(非Premiumは透明)
+    "GoldAccentColor": "#A8902F",
+    "OverlayBackgroundColor": "#A0000000",
+    "OverlayTextColor": "#E0E0E0",
+    "SubtleGlassColor": "#30FFFFFF",
+    "WindowOuterBorderColor": "#00000000"
   },
   "NavPane": {
-    "NavItemColor": "#00000000",
+    "NavItemColor": "#C4CBD6",
     "NavItemTextColor": "#1B2230",
     "NavItemHoverColor": "#C2CBD8",
     "NavItemHoverTextColor": "#142036",
     "NavItemSelectedColor": "#9CA6BBD8",
     "NavItemSelectedTextColor": "#142036",
     "DeckItemSelectedColor": "#A6BBD8"
-  },
-  "UpdatedAt": "2026-06-07T00:00:00.0000000Z"
+  }
 }

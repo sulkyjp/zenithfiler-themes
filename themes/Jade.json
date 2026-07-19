@@ -1,16 +1,17 @@
 {
   "Description.ja": "\u7FE1\u7FE0\u3068\u9752\u78C1\u306E\u6D17\u7DF4\u3002\u6DE1\u3044\u30BB\u30E9\u30C9\u30F3\u306E\u4F5C\u696D\u9762\u306B\u3001\u6DF1\u3044\u7FE1\u7FE0\u30B0\u30EA\u30FC\u30F3\u3068\u6FC3\u9752\u78C1\u306E\u30BF\u30A4\u30C8\u30EB\u30D0\u30FC\u304C\u5B9D\u77F3\u306E\u6DF1\u307F\u3092\u6DFB\u3048\u308B\u660E\u308B\u3044\u30D7\u30EC\u30DF\u30A2\u30E0\u30C6\u30FC\u30DE",
-  "Description.en": "Jade and celadon refinement. A pale celadon workspace where deep jade green and a celadon title bar add a jewel's depth, in a bright premium theme",
+  "Description.en": "Jade and celadon refinement. A pale celadon workspace where deep jade green and a celadon title bar add a jewel\u0027s depth, in a bright premium theme",
   "Description.zh-CN": "\u7FE1\u7FE0\u4E0E\u9752\u74F7\u7684\u6D17\u7EC3\u3002\u6DE1\u9752\u74F7\u8272\u5DE5\u4F5C\u9762\uFF0C\u6DF1\u7FE1\u7FE0\u7EFF\u4E0E\u6D53\u9752\u74F7\u6807\u9898\u680F\u589E\u6DFB\u5B9D\u77F3\u822C\u6DF1\u5EA6\u7684\u660E\u4EAE\u9AD8\u7EA7\u4E3B\u9898",
   "Description.zh-TW": "\u7FE1\u7FE0\u8207\u9752\u74F7\u7684\u6D17\u7DF4\u3002\u6DE1\u9752\u74F7\u8272\u5DE5\u4F5C\u9762\uFF0C\u6DF1\u7FE1\u7FE0\u7DA0\u8207\u6FC3\u9752\u74F7\u6A19\u984C\u6B04\u589E\u6DFB\u5BF6\u77F3\u822C\u6DF1\u5EA6\u7684\u660E\u4EAE\u9AD8\u7D1A\u4E3B\u984C",
   "Description.ko-KR": "\uBE44\uCDE8\uC640 \uCCAD\uC790\uC758 \uC138\uB828\uB428. \uC605\uC740 \uC140\uB77C\uB3C8 \uC791\uC5C5\uBA74\uC5D0 \uAE4A\uC740 \uBE44\uCDE8 \uADF8\uB9B0\uACFC \uCCAD\uC790 \uC81C\uBAA9 \uD45C\uC2DC\uC904\uC774 \uBCF4\uC11D\uC758 \uAE4A\uC774\uB97C \uB354\uD558\uB294 \uBC1D\uC740 \uD504\uB9AC\uBBF8\uC5C4 \uD14C\uB9C8",
   "Description.de": "Jade- und Seladon-Raffinesse. Eine blasse Seladon-Fl\u00E4che, auf der tiefes Jadegr\u00FCn und eine Seladon-Titelleiste juwelenhafte Tiefe verleihen \u2014 ein helles Premium-Thema",
-  "Description.es": "Refinamiento de jade y celadón. Un espacio celadón pálido donde el verde jade intenso y una barra de título celadón aportan profundidad de joya, en un tema premium luminoso",
-  "Description.fr": "Le raffinement du jade et du c\u00e9ladon. Un espace de travail c\u00e9ladon p\u00e2le o\u00f9 le vert jade profond et une barre de titre c\u00e9ladon ajoutent la profondeur d'un joyau, dans un th\u00e8me premium lumineux",
+  "Description.es": "Refinamiento de jade y celad\u00F3n. Un espacio celad\u00F3n p\u00E1lido donde el verde jade intenso y una barra de t\u00EDtulo celad\u00F3n aportan profundidad de joya, en un tema premium luminoso",
+  "Description.fr": "Le raffinement du jade et du c\u00E9ladon. Un espace de travail c\u00E9ladon p\u00E2le o\u00F9 le vert jade profond et une barre de titre c\u00E9ladon ajoutent la profondeur d\u0027un joyau, dans un th\u00E8me premium lumineux",
   "Description.ru": "\u0423\u0442\u043E\u043D\u0447\u0451\u043D\u043D\u043E\u0441\u0442\u044C \u043D\u0435\u0444\u0440\u0438\u0442\u0430 \u0438 \u0441\u0435\u043B\u0430\u0434\u043E\u043D\u0430. \u0411\u043B\u0435\u0434\u043D\u043E-\u0441\u0435\u043B\u0430\u0434\u043E\u043D\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0447\u0430\u044F \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u044C, \u0433\u0434\u0435 \u0433\u043B\u0443\u0431\u043E\u043A\u0438\u0439 \u043D\u0435\u0444\u0440\u0438\u0442\u043E\u0432\u044B\u0439 \u0437\u0435\u043B\u0451\u043D\u044B\u0439 \u0438 \u0441\u0435\u043B\u0430\u0434\u043E\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043D\u0435\u043B\u044C \u043F\u0440\u0438\u0434\u0430\u044E\u0442 \u0433\u043B\u0443\u0431\u0438\u043D\u0443 \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u043E\u0433\u043E \u043A\u0430\u043C\u043D\u044F \u2014 \u0441\u0432\u0435\u0442\u043B\u0430\u044F \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u0430\u044F \u0442\u0435\u043C\u0430",
-  "Description.pt": "Requinte de jade e celadon. Um espaço celadon pálido onde o verde jade profundo e uma barra de título celadon acrescentam profundidade de joia, num tema premium claro",
+  "Description.pt": "Requinte de jade e celadon. Um espa\u00E7o celadon p\u00E1lido onde o verde jade profundo e uma barra de t\u00EDtulo celadon acrescentam profundidade de joia, num tema premium claro",
   "Author": "K.AKASAKA",
   "Category": "Premium",
+  "UpdatedAt": "2026-07-18T17:16:41Z",
   "Base": {
     "BackgroundColor": "#DCE6DD",
     "PropertyPathBackgroundColor": "#DCE6DD",
@@ -19,7 +20,7 @@
     "TitleBarColor": "#356B57",
     "TitleBarTextColor": "#E8F0EA",
     "BorderColor": "#B2C4B4",
-    "ListGridLineColor": "#A8BDAB",                      // 一覧の行罫線(視認性優先)
+    "ListGridLineColor": "#A8BDAB",
     "PropertyPathBorderColor": "#B2C4B4",
     "PrimaryTextColor": "#1E2722",
     "ChallengeNameTextColor": "#1E2722",
@@ -43,15 +44,14 @@
     "InactiveSelectionTextColor": "#19211C",
     "SelectionTextColor": "#1E2722",
     "StatusBarTextColor": "#1E2722",
-    "SecondaryTextColor": "#5E7466",
-    "NavSectionHeaderColor": "#5E7466",
-    "PreviewPanelTextColor": "#5E7466",
-    "FileListHeaderColor": "#5E7466",
+    "SecondaryTextColor": "#59705F",
+    "NavSectionHeaderColor": "#59705F",
+    "PreviewPanelTextColor": "#59705F",
+    "FileListHeaderColor": "#59705F",
     "SidebarIconColor": "#5C7264",
     "IconForegroundColor": "#5C7264",
     "InputBackgroundColor": "#ECF2EC",
     "FocusedPaneBackgroundColor": "#D2DED3",
-    "FocusedPaneTextColor": "#1E2722",
     "FocusedPaneHeaderBackgroundColor": "#C5D2C6",
     "OnePointDarkColor": "#356B57",
     "OnePointDarkTextColor": "#FFFFFF",
@@ -72,7 +72,7 @@
     "ButtonHoverColor": "#C2D0C3",
     "InactiveSelectionColor": "#D0DCD1",
     "OptionSelectedColor": "#A7CBB4",
-    "OptionSelectedHoverColor": "#8799C8AC",
+    "OptionSelectedHoverColor": "#9BC3AB",
     "CheckboxHoverColor": "#2E7A5C",
     "CheckedHoverAccentColor": "#266A4E",
     "FilterActiveIndicatorColor": "#2E7A5C",
@@ -90,9 +90,9 @@
     "IndexSearchIconColor": "#1E2722",
     "IndexSearchFocusBorderColor": "#2E7A5C",
     "SearchModeNormalBackgroundColor": "#A7CBB4",
-    "SearchModeGrepBackgroundColor": "#A7CBB4",
-    "SearchModeIndexBackgroundColor": "#A7CBB4",
-    "SearchModeFilterBackgroundColor": "#A7CBB4",
+    "SearchModeGrepBackgroundColor": "#A6C7A8",
+    "SearchModeIndexBackgroundColor": "#D8C79A",
+    "SearchModeFilterBackgroundColor": "#B3B6D2",
     "NormalSearchIconColor": "#1E2722",
     "NormalSearchBackgroundColor": "#ECF2EC",
     "NormalSearchFocusBorderColor": "#2E7A5C",
@@ -104,8 +104,8 @@
     "FilterSearchFocusBorderColor": "#2E7A5C",
     "SearchModeNormalTextColor": "#1E2722",
     "SearchModeGrepTextColor": "#1E2722",
-    "SearchModeIndexTextColor": "#1E2722",
-    "SearchModeFilterTextColor": "#1E2722"
+    "SearchModeIndexTextColor": "#2A2618",
+    "SearchModeFilterTextColor": "#1F2138"
   },
   "Accent": {
     "AccentColor": "#2E7A5C",
@@ -120,7 +120,7 @@
     "ContextMenuBorderColor": "#B6C7B8",
     "ContextMenuTextColor": "#1E2722",
     "ContextMenuIconColor": "#587062",
-    "ContextMenuShortcutColor": "#7E9486",
+    "ContextMenuShortcutColor": "#788E80",
     "ContextMenuDisabledColor": "#92A698",
     "ContextMenuDisabledIconColor": "#92A698",
     "ContextMenuHighlightShortcutColor": "#2E7A5C",
@@ -158,20 +158,19 @@
     "StickmanColor": "#266A4E",
     "StickmanPreviewBackgroundColor": "#CCD2DED3",
     "FavoriteStarColor": "#A6802E",
-    "GoldAccentColor": "#A6802E",                        // 警告アイコン等のゴールド (#161 UX 基盤)
-    "OverlayBackgroundColor": "#A0000000",               // サムネイル等のオーバーレイ背景 (#161 UX 基盤)
-    "OverlayTextColor": "#E0E0E0",                       // オーバーレイ上のサブテキスト (#161 UX 基盤)
-    "SubtleGlassColor": "#30FFFFFF",                     // テレメトリ区切り線などの微光 (#161 UX 基盤)
-    "WindowOuterBorderColor": "#1E4A39"                 // Premium専用 外周線(深い翡翠)
+    "GoldAccentColor": "#A6802E",
+    "OverlayBackgroundColor": "#A0000000",
+    "OverlayTextColor": "#E0E0E0",
+    "SubtleGlassColor": "#30FFFFFF",
+    "WindowOuterBorderColor": "#1E4A39"
   },
   "NavPane": {
     "NavItemColor": "#00000000",
     "NavItemTextColor": "#1E2722",
     "NavItemHoverColor": "#CFDDD0",
-    "NavItemHoverTextColor": "#19211C",
     "NavItemSelectedColor": "#9CA7CBB4",
     "NavItemSelectedTextColor": "#1E2722",
+    "NavItemHoverTextColor": "#19211C",
     "DeckItemSelectedColor": "#A7CBB4"
-  },
-  "UpdatedAt": "2026-06-07T00:00:00.0000000Z"
+  }
 }
